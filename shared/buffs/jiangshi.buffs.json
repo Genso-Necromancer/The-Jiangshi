@@ -1,5 +1,6 @@
 {
-	"buffs": [{
+	"buffs": [
+	{
 			"id": "Nos_Drain_MaxHP_1B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
@@ -161,7 +162,33 @@
             "float" : 0,
             "string" : ""
          }
-      }
+      },
+		{
+			"id": "jiangshi_healthy_DMGH",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_high",
+			"amount": 1.0,
+			"remove_if_not_active": false,
+			"rule_type": "hpabove",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.9,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_healthy_DMGL",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "damage_low",
+			"amount": 1.0,
+			"remove_if_not_active": false,
+			"rule_type": "hpabove",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.9,
+				"string": ""
+			}
+		}
 
 	]
 
