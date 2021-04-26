@@ -1,0 +1,44 @@
+//"Nosferatu"
+//--------------------------------------------------
+
+//--------------------------------------------------
+
+//-----------------------------------------------------------------------------------------------
+//-----------------------------------------
+
+//Transform -- Human > Beast Effects
+
+
+
+effect: .name "jiangshi prot 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10%	.on_hit true .on_miss true .queue true
+effect: .name "jiangshi prot 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 12%	.on_hit true .on_miss true .queue true
+effect: .name "jiangshi prot 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 16%	.on_hit true .on_miss true .queue true
+effect: .name "jiangshi prot 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 22%	.on_hit true .on_miss true .queue true
+effect: .name "jiangshi prot 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 28%	.on_hit true .on_miss true .queue true
+
+effect: .name "jiangshi Attack Buff 1" .target "performer"  .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 10%	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "jiangshi Attack Buff 2" .target "performer"  .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 12%	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "jiangshi Attack Buff 3" .target "performer"  .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 13%	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "jiangshi Attack Buff 4" .target "performer"  .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 15%	.on_hit true .on_miss true .queue true .apply_once true
+effect: .name "jiangshi Attack Buff 5" .target "performer"  .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 18%	.on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "jiangshi Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "jiangshi Stun 2" .target "target" .curio_result_type "negative" .chance 105% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "jiangshi Stun 3" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "jiangshi Stun 4" .target "target" .curio_result_type "negative" .chance 115% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "jiangshi Stun 5" .target "target" .curio_result_type "negative" .chance 125% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Chi Fatigue SPD 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -1	.on_hit true .on_miss false
+effect: .name "Chi Fatigue SPD 2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false
+effect: .name "Chi Fatigue SPD 3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false
+effect: .name "Chi Fatigue SPD 4" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .speed_rating_add -4	.on_hit true .on_miss false
+effect: .name "Chi Fatigue SPD 5" .target "target" .curio_result_type "negative" .chance 150% .combat_stat_buff 1 .speed_rating_add -5	.on_hit true .on_miss false
+
+effect: .name "Chi Fatigue Dodge 1" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .defense_rating_add -10%	.on_hit true .on_miss false .queue true
+effect: .name "Chi Fatigue Dodge 2" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .defense_rating_add -13%	.on_hit true .on_miss false .queue true
+effect: .name "Chi Fatigue Dodge 3" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .defense_rating_add -15%	.on_hit true .on_miss false .queue true
+effect: .name "Chi Fatigue Dodge 4" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .defense_rating_add -18%	.on_hit true .on_miss false .queue true
+effect: .name "Chi Fatigue Dodge 5" .target "target" .curio_result_type "negative" .chance 150% .combat_stat_buff 1 .defense_rating_add -21%	.on_hit true .on_miss false .queue true
+
+effect: .name "jiangshi_cure" .target "performer" .curio_result_type "positive" .chance 100% .remove_vampire 1  .on_hit true .on_miss true .queue true .has_description false
+//-----------------------------------------------------------------------------------------------

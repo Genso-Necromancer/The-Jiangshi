@@ -1,0 +1,27 @@
+
+jiangshi.sprite.heroic.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BACK
+  rotate: false
+  xy: 2, 701
+  size: 1606, 1288
+  orig: 1606, 1288
+  offset: 0, 0
+  index: -1
+HALO
+  rotate: false
+  xy: 900, 209
+  size: 499, 490
+  orig: 499, 490
+  offset: 0, 0
+  index: -1
+Virtue
+  rotate: false
+  xy: 2, 2
+  size: 896, 697
+  orig: 896, 697
+  offset: 0, 0
+  index: -1

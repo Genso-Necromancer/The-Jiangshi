@@ -1,0 +1,97 @@
+{
+   "buffs":
+   [
+   {
+         "id" : "nosferatu_tooltip_lifesteal_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "nosferatu_tooltip_lifesteal1",
+         "amount" : 1.0,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         }
+      },	
+	  {
+         "id" : "nosferatu_tooltip_lifesteal_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "nosferatu_tooltip_lifesteal2",
+         "amount" : 1.0,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         }
+      },	
+	  {
+         "id" : "nosferatu_tooltip_lifesteal_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "nosferatu_tooltip_lifesteal3",
+         "amount" : 1.0,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 50,
+            "string" : ""
+         }
+      },	
+	  {
+         "id" : "nosferatu_tooltip_lifesteal_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "nosferatu_tooltip_lifesteal4",
+         "amount" : 1.0,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },	
+	  {
+         "id" : "nosferatu_tooltip_lifesteal_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "nosferatu_tooltip_lifesteal5",
+         "amount" : 1.0,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+	  
+	  
+	  	  	  
+	  	  
+	  
+	  
+	
+   
+    
+	  
+	  
+	
+	    	  
+	  
+  
+	
+	 
+   ]
+}

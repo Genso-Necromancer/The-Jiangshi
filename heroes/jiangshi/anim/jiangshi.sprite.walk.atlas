@@ -1,0 +1,160 @@
+
+jiangshi.sprite.walk.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Breasts
+  rotate: false
+  xy: 1263, 156
+  size: 100, 52
+  orig: 100, 52
+  offset: 0, 0
+  index: -1
+Layer
+  rotate: true
+  xy: 1861, 180
+  size: 169, 184
+  orig: 169, 184
+  offset: 0, 0
+  index: -1
+Layer #1
+  rotate: true
+  xy: 933, 316
+  size: 194, 362
+  orig: 194, 362
+  offset: 0, 0
+  index: -1
+Pasted Layer
+  rotate: true
+  xy: 1590, 110
+  size: 153, 225
+  orig: 153, 225
+  offset: 0, 0
+  index: -1
+bandage
+  rotate: false
+  xy: 689, 19
+  size: 227, 155
+  orig: 227, 155
+  offset: 0, 0
+  index: -1
+bow_right
+  rotate: true
+  xy: 1855, 351
+  size: 159, 191
+  orig: 159, 191
+  offset: 0, 0
+  index: -1
+chest
+  rotate: true
+  xy: 918, 6
+  size: 146, 263
+  orig: 146, 263
+  offset: 0, 0
+  index: -1
+hair_thing1
+  rotate: true
+  xy: 1183, 4
+  size: 148, 89
+  orig: 148, 89
+  offset: 0, 0
+  index: -1
+hair_thing2
+  rotate: false
+  xy: 1817, 95
+  size: 133, 83
+  orig: 133, 83
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: false
+  xy: 1290, 210
+  size: 298, 62
+  orig: 298, 62
+  offset: 0, 0
+  index: -1
+left_bang
+  rotate: true
+  xy: 1365, 161
+  size: 47, 65
+  orig: 47, 65
+  offset: 0, 0
+  index: -1
+left_leg
+  rotate: true
+  xy: 402, 176
+  size: 153, 527
+  orig: 153, 527
+  offset: 0, 0
+  index: -1
+left_sleeve
+  rotate: true
+  xy: 402, 2
+  size: 172, 285
+  orig: 172, 285
+  offset: 0, 0
+  index: -1
+poneytail_end
+  rotate: false
+  xy: 2, 19
+  size: 398, 491
+  orig: 398, 491
+  offset: 0, 0
+  index: -1
+right_arm
+  rotate: false
+  xy: 931, 154
+  size: 330, 81
+  orig: 330, 81
+  offset: 0, 0
+  index: -1
+right_bang
+  rotate: false
+  xy: 1817, 195
+  size: 37, 68
+  orig: 37, 68
+  offset: 0, 0
+  index: -1
+right_leg
+  rotate: true
+  xy: 402, 331
+  size: 179, 529
+  orig: 179, 529
+  offset: 0, 0
+  index: -1
+right_longer_bang
+  rotate: true
+  xy: 1603, 265
+  size: 53, 256
+  orig: 53, 256
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 931, 237
+  size: 357, 77
+  orig: 357, 77
+  offset: 0, 0
+  index: -1
+sleeve
+  rotate: true
+  xy: 1297, 274
+  size: 236, 304
+  orig: 236, 304
+  offset: 0, 0
+  index: -1
+sleeve12
+  rotate: true
+  xy: 1603, 320
+  size: 190, 250
+  orig: 190, 250
+  offset: 0, 0
+  index: -1
+talisman
+  rotate: true
+  xy: 1952, 128
+  size: 50, 88
+  orig: 50, 88
+  offset: 0, 0
+  index: -1
