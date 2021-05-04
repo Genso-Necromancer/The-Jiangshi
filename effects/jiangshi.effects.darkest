@@ -56,5 +56,9 @@ effect: .name "jiangshi Stun 3" .target "target" .chance 110% .stun 1	.on_hit tr
 effect: .name "jiangshi Stun 4" .target "target" .chance 115% .stun 1	.on_hit true .on_miss false .queue false
 effect: .name "jiangshi Stun 5" .target "target" .chance 125% .stun 1	.on_hit true .on_miss false .queue false
 
+effect: .name "jiangshi SPOOKED 1"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2 .damage_low_add 0.15 .damage_high_add 0.15 .attack_rating_add 0.10 .crit_chance_add 2% .riposte_effect "Wyrd Bleed 5"
+effect: .name "jiangshi SPOOKED 3"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 3 .damage_low_add 0.20 .damage_high_add 0.20 .attack_rating_add 0.10 .crit_chance_add 3% .riposte_effect "Wyrd Bleed 5"
+effect: .name "jiangshi SPOOKED 5"  .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 4 .damage_low_add 0.25 .damage_high_add 0.25 .attack_rating_add 0.15 .crit_chance_add 5% .riposte_effect "Wyrd Bleed 5"
+
 effect: .name "jiangshi_cure" .target "performer" .chance 100% .remove_vampire 1  .on_hit true .on_miss true .queue false .has_description false
 //-----------------------------------------------------------------------------------------------

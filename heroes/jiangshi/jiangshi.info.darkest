@@ -63,11 +63,11 @@ combat_skill: .id "ji_frightful_leap" .level 3 .type "melee" .atk 100% .dmg -66%
 combat_skill: .id "ji_frightful_leap" .level 4 .type "melee" .atk 105% .dmg -66% .crit 0%  .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 5"
 
 // Horrid Reminder
-combat_skill: .id "ji_horrid_reminder" .level 0 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target 12 .effect "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 1 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target 12 .effect "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 2 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target 12 .effect "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 3 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target 12 .effect "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 4 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target 12 .effect "jiangshi_cure" .is_crit_valid False
+combat_skill: .id "ji_horrid_reminder" .level 0 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target  .effect "jiangshi SPOOKED 1" "jiangshi_cure" .is_crit_valid False .move 3 0
+combat_skill: .id "ji_horrid_reminder" .level 1 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target .effect "jiangshi SPOOKED 1" "jiangshi_cure" .is_crit_valid False .move 3 0
+combat_skill: .id "ji_horrid_reminder" .level 2 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target  .effect "jiangshi SPOOKED 3" "jiangshi_cure" .is_crit_valid False .move 3 0
+combat_skill: .id "ji_horrid_reminder" .level 3 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target  .effect "jiangshi SPOOKED 3" "jiangshi_cure" .is_crit_valid False .move 3 0
+combat_skill: .id "ji_horrid_reminder" .level 4 .type "melee" .atk 90% .dmg -60% .crit 8% .launch 12 .target .effect "jiangshi SPOOKED 5" "jiangshi_cure" .is_crit_valid False .move 3 0
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
 
