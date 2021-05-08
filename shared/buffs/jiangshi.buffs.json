@@ -163,7 +163,7 @@
             "string" : ""
          }
       },
-		{
+	  {
 			"id": "jiangshi_healthy_DMGH",
 			"stat_type": "combat_stat_multiply",
 			"stat_sub_type": "damage_high",
@@ -172,7 +172,7 @@
 			"rule_type": "hpabove",
 			"is_false_rule": false,
 			"rule_data": {
-				"float": 0.9,
+				"float": 0.75,
 				"string": ""
 			}
 		},
@@ -185,7 +185,202 @@
 			"rule_type": "hpabove",
 			"is_false_rule": false,
 			"rule_data": {
-				"float": 0.9,
+				"float": 0.75,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLEED_DEBUFF_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "bleed",
+			"amount": -0.08,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLEED_DEBUFF_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "bleed",
+			"amount": -0.11,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLEED_DEBUFF_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "bleed",
+			"amount": -0.14,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLEED_DEBUFF_5",
+			"stat_type": "resistance",
+			"stat_sub_type": "bleed",
+			"amount": -0.17,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLEED_DEBUFF_5",
+			"stat_type": "resistance",
+			"stat_sub_type": "bleed",
+			"amount": -0.20,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLIGHT_DEBUFF_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.08,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLIGHT_DEBUFF_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.11,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLIGHT_DEBUFF_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.14,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLIGHT_DEBUFF_5",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.17,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_BLIGHT_DEBUFF_5",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.20,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_PROT_DEBUFF_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": -0.12,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_PROT_DEBUFF_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": -0.14,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_PROT_DEBUFF_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": -0.16,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_PROT_DEBUFF_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": -0.18,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_PROT_DEBUFF_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": -0.2,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
 				"string": ""
 			}
 		}
