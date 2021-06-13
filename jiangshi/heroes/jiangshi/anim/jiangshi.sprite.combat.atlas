@@ -1,0 +1,160 @@
+
+jiangshi.sprite.combat.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 636, 14
+  size: 96, 56
+  orig: 96, 56
+  offset: 0, 0
+  index: -1
+bandage
+  rotate: false
+  xy: 1671, 109
+  size: 197, 236
+  orig: 197, 236
+  offset: 0, 0
+  index: -1
+bow_left
+  rotate: true
+  xy: 1955, 128
+  size: 102, 83
+  orig: 102, 83
+  offset: 0, 0
+  index: -1
+bow_right
+  rotate: true
+  xy: 492, 14
+  size: 96, 142
+  orig: 96, 142
+  offset: 0, 0
+  index: -1
+dress
+  rotate: false
+  xy: 2, 112
+  size: 416, 398
+  orig: 416, 398
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 694, 22
+  size: 171, 179
+  orig: 171, 179
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: false
+  xy: 1671, 38
+  size: 145, 69
+  orig: 145, 69
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: false
+  xy: 361, 2
+  size: 129, 108
+  orig: 129, 108
+  offset: 0, 0
+  index: -1
+left_bang
+  rotate: false
+  xy: 1979, 356
+  size: 41, 63
+  orig: 41, 63
+  offset: 0, 0
+  index: -1
+left_bang_long
+  rotate: false
+  xy: 1870, 138
+  size: 83, 207
+  orig: 83, 207
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: false
+  xy: 1955, 232
+  size: 82, 113
+  orig: 82, 113
+  offset: 0, 0
+  index: -1
+left_leg
+  rotate: true
+  xy: 1438, 347
+  size: 163, 539
+  orig: 163, 539
+  offset: 0, 0
+  index: -1
+poneytail
+  rotate: true
+  xy: 420, 203
+  size: 307, 450
+  orig: 307, 450
+  offset: 0, 0
+  index: -1
+right_bang
+  rotate: true
+  xy: 867, 19
+  size: 51, 78
+  orig: 51, 78
+  offset: 0, 0
+  index: -1
+right_hand
+  rotate: false
+  xy: 1818, 13
+  size: 111, 94
+  orig: 111, 94
+  offset: 0, 0
+  index: -1
+right_leg
+  rotate: true
+  xy: 872, 346
+  size: 164, 564
+  orig: 164, 564
+  offset: 0, 0
+  index: -1
+right_long_bang
+  rotate: true
+  xy: 420, 112
+  size: 89, 272
+  orig: 89, 272
+  offset: 0, 0
+  index: -1
+right_sleeve copy
+  rotate: true
+  xy: 872, 72
+  size: 272, 333
+  orig: 272, 333
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 33
+  size: 357, 77
+  orig: 357, 77
+  offset: 0, 0
+  index: -1
+ss
+  rotate: false
+  xy: 1207, 12
+  size: 328, 332
+  orig: 328, 332
+  offset: 0, 0
+  index: -1
+talisman
+  rotate: false
+  xy: 1979, 421
+  size: 50, 89
+  orig: 50, 89
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 1537, 15
+  size: 132, 330
+  orig: 132, 330
+  offset: 0, 0
+  index: -1
