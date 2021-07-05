@@ -10,11 +10,11 @@ weapon: .name "jiangshi_weapon_1" .atk 0% .dmg 5 7 .crit 8% .spd 2 .upgradeRequi
 weapon: .name "jiangshi_weapon_2" .atk 0% .dmg 6 9 .crit 9% .spd 3 .upgradeRequirementCode 1
 weapon: .name "jiangshi_weapon_3" .atk 0% .dmg 7 10 .crit 10% .spd 4 .upgradeRequirementCode 2
 weapon: .name "jiangshi_weapon_4" .atk 0% .dmg 8 12 .crit 11% .spd 5 .upgradeRequirementCode 3
-armour: .name "jiangshi_armour_0" .def 0% .prot .05 .hp 21 .spd 0
-armour: .name "jiangshi_armour_1" .def 0% .prot .05 .hp 27 .spd 0 .upgradeRequirementCode 0
-armour: .name "jiangshi_armour_2" .def 0% .prot .10 .hp 34 .spd 0 .upgradeRequirementCode 1
+armour: .name "jiangshi_armour_0" .def 0% .prot .04 .hp 21 .spd 0
+armour: .name "jiangshi_armour_1" .def 0% .prot .06 .hp 27 .spd 0 .upgradeRequirementCode 0
+armour: .name "jiangshi_armour_2" .def 0% .prot .08 .hp 34 .spd 0 .upgradeRequirementCode 1
 armour: .name "jiangshi_armour_3" .def 0% .prot .10 .hp 41 .spd 0 .upgradeRequirementCode 2
-armour: .name "jiangshi_armour_4" .def 0% .prot .15 .hp 48 .spd 0 .upgradeRequirementCode 3
+armour: .name "jiangshi_armour_4" .def 0% .prot .12 .hp 48 .spd 0 .upgradeRequirementCode 3
 
 
 // Skills 
@@ -43,10 +43,10 @@ combat_skill: .id "ji_detect_breath" .level 4 .type "ranged" .atk 115% .dmg -100
 
 // Drain Chi
 combat_skill: .id "ji_drain_chi" .level 0 .type "ranged" .atk 65%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 1" "jiangshi Attack Chi Buff 1" "Chi Life Gain 1" "Chi Fatigue SPD 1" "Chi Fatigue Dodge 1" "Chi Life Drain 1" "jiangshi_cure"
-combat_skill: .id "ji_drain_chi" .level 1 .type "ranged" .atk 75%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 2" "jiangshi Attack Chi Buff 2" "Chi Life Gain 2" "Chi Fatigue SPD 2" "Chi Fatigue Dodge 2" "Chi Life Drain 1" "jiangshi_cure"
-combat_skill: .id "ji_drain_chi" .level 2 .type "ranged" .atk 80%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 3" "jiangshi Attack Chi Buff 3" "Chi Life Gain 3" "Chi Fatigue SPD 3" "Chi Fatigue Dodge 3" "Chi Life Drain 1" "jiangshi_cure"
-combat_skill: .id "ji_drain_chi" .level 3 .type "ranged" .atk 85%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 4" "jiangshi Attack Chi Buff 4" "Chi Life Gain 4" "Chi Fatigue SPD 4" "Chi Fatigue Dodge 4" "Chi Life Drain 1" "jiangshi_cure"
-combat_skill: .id "ji_drain_chi" .level 4 .type "ranged" .atk 90%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 5" "jiangshi Attack Chi Buff 5" "Chi Life Gain 5" "Chi Fatigue SPD 5" "Chi Fatigue Dodge 5" "Chi Life Drain 1" "jiangshi_cure"
+combat_skill: .id "ji_drain_chi" .level 1 .type "ranged" .atk 70%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 2" "jiangshi Attack Chi Buff 2" "Chi Life Gain 2" "Chi Fatigue SPD 2" "Chi Fatigue Dodge 2" "Chi Life Drain 1" "jiangshi_cure"
+combat_skill: .id "ji_drain_chi" .level 2 .type "ranged" .atk 75%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 3" "jiangshi Attack Chi Buff 3" "Chi Life Gain 3" "Chi Fatigue SPD 3" "Chi Fatigue Dodge 3" "Chi Life Drain 1" "jiangshi_cure"
+combat_skill: .id "ji_drain_chi" .level 3 .type "ranged" .atk 80%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 4" "jiangshi Attack Chi Buff 4" "Chi Life Gain 4" "Chi Fatigue SPD 4" "Chi Fatigue Dodge 4" "Chi Life Drain 1" "jiangshi_cure"
+combat_skill: .id "ji_drain_chi" .level 4 .type "ranged" .atk 85%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 5" "jiangshi Attack Chi Buff 5" "Chi Life Gain 5" "Chi Fatigue SPD 5" "Chi Fatigue Dodge 5" "Chi Life Drain 1" "jiangshi_cure"
 
 // Fearful Song
 combat_skill: .id "ji_fearful_song" .level 0 .type "ranged" .atk 65% .dmg -90% .crit 0% .move 1 0 .is_crit_valid true .launch 432 .target 12 .effect "jiangshi_cure" "jiangshi Stun 1" .move 1 0 
@@ -56,18 +56,18 @@ combat_skill: .id "ji_fearful_song" .level 3 .type "ranged" .atk 65% .dmg -90% .
 combat_skill: .id "ji_fearful_song" .level 4 .type "ranged" .atk 65% .dmg -90% .crit 0% .move 1 0 .is_crit_valid true .launch 432 .target 12 .effect "jiangshi_cure" "jiangshi Stun 5" .move 1 0 
 
 // Frightful Leap
-combat_skill: .id "ji_frightful_leap" .level 0 .type "melee" .atk 85%  .dmg -66% .crit -4% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 1" "jiangshi_cure"
-combat_skill: .id "ji_frightful_leap" .level 1 .type "melee" .atk 90%  .dmg -66% .crit -3% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 2" "jiangshi_cure"
-combat_skill: .id "ji_frightful_leap" .level 2 .type "melee" .atk 95%  .dmg -66% .crit -2% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 3" "jiangshi_cure"
-combat_skill: .id "ji_frightful_leap" .level 3 .type "melee" .atk 100% .dmg -66% .crit -1% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 4" "jiangshi_cure"
-combat_skill: .id "ji_frightful_leap" .level 4 .type "melee" .atk 105% .dmg -66% .crit  0% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 5" "jiangshi_cure"
+combat_skill: .id "ji_frightful_leap" .level 0 .type "melee" .atk 85%  .dmg -66% .crit -4% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 1" "jiangshi Shuffle DoT 1" "jiangshi_cure"
+combat_skill: .id "ji_frightful_leap" .level 1 .type "melee" .atk 90%  .dmg -66% .crit -3% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 2" "jiangshi Shuffle DoT 2" "jiangshi_cure"
+combat_skill: .id "ji_frightful_leap" .level 2 .type "melee" .atk 95%  .dmg -66% .crit -2% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 3" "jiangshi Shuffle DoT 3" "jiangshi_cure"
+combat_skill: .id "ji_frightful_leap" .level 3 .type "melee" .atk 100% .dmg -66% .crit -1% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 4" "jiangshi Shuffle DoT 4" "jiangshi_cure"
+combat_skill: .id "ji_frightful_leap" .level 4 .type "melee" .atk 105% .dmg -66% .crit  0% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 5" "jiangshi Shuffle DoT 5" "jiangshi_cure"
 
 // Horrid Reminder
-combat_skill: .id "ji_horrid_reminder" .level 0 .type "melee" .atk 90% .dmg -60% .crit 8% .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 1" "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 1 .type "melee" .atk 90% .dmg -60% .crit 8% .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 1" "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 2 .type "melee" .atk 90% .dmg -60% .crit 8% .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 3" "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 3 .type "melee" .atk 90% .dmg -60% .crit 8% .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 3" "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 4 .type "melee" .atk 90% .dmg -60% .crit 8% .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 5" "jiangshi_cure" .is_crit_valid False
+combat_skill: .id "ji_horrid_reminder" .level 0 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 1" "jiangshi Stress 1" "jiangshi_cure" .is_crit_valid False
+combat_skill: .id "ji_horrid_reminder" .level 1 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 1" "jiangshi Stress 2" "jiangshi_cure" .is_crit_valid False
+combat_skill: .id "ji_horrid_reminder" .level 2 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 3" "jiangshi Stress 3" "jiangshi_cure" .is_crit_valid False
+combat_skill: .id "ji_horrid_reminder" .level 3 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 3" "jiangshi Stress 4" "jiangshi_cure" .is_crit_valid False
+combat_skill: .id "ji_horrid_reminder" .level 4 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 5" "jiangshi Stress 5" "jiangshi_cure" .is_crit_valid False
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
 
