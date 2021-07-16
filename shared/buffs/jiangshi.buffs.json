@@ -167,7 +167,7 @@
 			"id": "jiangshi_healthy_DMGH",
 			"stat_type": "combat_stat_multiply",
 			"stat_sub_type": "damage_high",
-			"amount": 1.0,
+			"amount": 1.2,
 			"remove_if_not_active": false,
 			"rule_type": "hpabove",
 			"is_false_rule": false,
@@ -180,7 +180,7 @@
 			"id": "jiangshi_healthy_DMGL",
 			"stat_type": "combat_stat_multiply",
 			"stat_sub_type": "damage_low",
-			"amount": 1.0,
+			"amount": 1.2,
 			"remove_if_not_active": false,
 			"rule_type": "hpabove",
 			"is_false_rule": false,
@@ -333,7 +333,7 @@
 			}
 		},
 		{
-			"id": "jiangshi_PROT_DEBUFF_1",
+			"id": "jiangshi_PROT_DEBUFF_2",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
 			"amount": -0.14,
@@ -346,7 +346,7 @@
 			}
 		},
 		{
-			"id": "jiangshi_PROT_DEBUFF_1",
+			"id": "jiangshi_PROT_DEBUFF_3",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
 			"amount": -0.16,
@@ -359,7 +359,7 @@
 			}
 		},
 		{
-			"id": "jiangshi_PROT_DEBUFF_5",
+			"id": "jiangshi_PROT_DEBUFF_4",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
 			"amount": -0.18,
@@ -383,7 +383,139 @@
 				"float": 0,
 				"string": ""
 			}
+		},
+		{
+			"id": "jiangshi_DODGE_DEBUFF_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.20,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_DODGE_DEBUFF_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.22,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_DODGE_DEBUFF_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.25,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_DODGE_DEBUFF_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.27,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_DODGE_DEBUFF_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "defense_rating",
+			"amount": -0.3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "jiangshi_DEBUFF_VS_MARK_1",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
+		},
+		{
+			"id": "jiangshi_DEBUFF_VS_MARK_2",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": 1.1,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
+		},
+		{
+			"id": "jiangshi_DEBUFF_VS_MARK_3",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": 1.2,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
+		},
+		{
+			"id": "jiangshi_DEBUFF_VS_MARK_4",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": 1.3,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
+		},
+		{
+			"id": "jiangshi_DEBUFF_VS_MARK_5",
+			"stat_type": "debuff_chance",
+			"stat_sub_type": "",
+			"amount": 1.4,
+			"remove_if_not_active": false,
+			"rule_type": "actorStatus",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "tagged"
+			}
 		}
+		
+		
 
 	]
 
