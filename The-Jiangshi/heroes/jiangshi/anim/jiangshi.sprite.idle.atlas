@@ -1,0 +1,153 @@
+
+jiangshi.sprite.idle.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 575, 782
+  size: 357, 66
+  orig: 357, 77
+  offset: 0, 11
+  index: -1
+poneytail_end
+  rotate: false
+  xy: 1, 1
+  size: 398, 491
+  orig: 398, 491
+  offset: 0, 0
+  index: -1
+left_sleeve
+  rotate: false
+  xy: 597, 1
+  size: 172, 285
+  orig: 172, 285
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: false
+  xy: 496, 850
+  size: 298, 62
+  orig: 298, 62
+  offset: 0, 0
+  index: -1
+chest
+  rotate: false
+  xy: 771, 253
+  size: 144, 261
+  orig: 146, 263
+  offset: 1, 1
+  index: -1
+sleeve12
+  rotate: false
+  xy: 771, 1
+  size: 190, 250
+  orig: 190, 250
+  offset: 0, 0
+  index: -1
+hair_thing2
+  rotate: false
+  xy: 646, 914
+  size: 133, 83
+  orig: 133, 83
+  offset: 0, 0
+  index: -1
+Layer
+  rotate: false
+  xy: 597, 515
+  size: 167, 182
+  orig: 169, 184
+  offset: 1, 1
+  index: -1
+Layer #1
+  rotate: false
+  xy: 401, 1
+  size: 194, 362
+  orig: 194, 362
+  offset: 0, 0
+  index: -1
+left_leg
+  rotate: false
+  xy: 182, 494
+  size: 153, 527
+  orig: 153, 527
+  offset: 0, 0
+  index: -1
+right_leg
+  rotate: false
+  xy: 1, 494
+  size: 179, 529
+  orig: 179, 529
+  offset: 0, 0
+  index: -1
+Pasted Layer
+  rotate: false
+  xy: 597, 288
+  size: 153, 225
+  orig: 153, 225
+  offset: 0, 0
+  index: -1
+right_arm
+  rotate: false
+  xy: 575, 699
+  size: 330, 81
+  orig: 330, 81
+  offset: 0, 0
+  index: -1
+sleeve
+  rotate: false
+  xy: 337, 494
+  size: 236, 304
+  orig: 236, 304
+  offset: 0, 0
+  index: -1
+talisman
+  rotate: false
+  xy: 972, 1
+  size: 50, 88
+  orig: 50, 88
+  offset: 0, 0
+  index: -1
+bandage
+  rotate: false
+  xy: 771, 516
+  size: 227, 155
+  orig: 227, 155
+  offset: 0, 0
+  index: -1
+hair_thing1
+  rotate: false
+  xy: 496, 914
+  size: 148, 89
+  orig: 148, 89
+  offset: 0, 0
+  index: -1
+right_longer_bang
+  rotate: false
+  xy: 917, 253
+  size: 53, 256
+  orig: 53, 256
+  offset: 0, 0
+  index: -1
+right_bang
+  rotate: false
+  xy: 972, 158
+  size: 37, 68
+  orig: 37, 68
+  offset: 0, 0
+  index: -1
+bow_right
+  rotate: false
+  xy: 337, 800
+  size: 157, 189
+  orig: 159, 191
+  offset: 1, 1
+  index: -1
+left_bang
+  rotate: false
+  xy: 972, 91
+  size: 47, 65
+  orig: 47, 65
+  offset: 0, 0
+  index: -1
