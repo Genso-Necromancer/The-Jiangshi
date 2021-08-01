@@ -1,0 +1,33 @@
+nosferatu_stone_curio.png
+size: 1623,805
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Altar overlay
+  rotate: true
+  xy: 673, 6
+  size: 797, 623
+  orig: 802, 638
+  offset: 3, 2
+  index: -1
+altar bits
+  rotate: true
+  xy: 2, 2
+  size: 801, 669
+  orig: 818, 683
+  offset: 1, 1
+  index: -1
+altar flames
+  rotate: false
+  xy: 1298, 276
+  size: 323, 527
+  orig: 323, 527
+  offset: 0, 0
+  index: -1
+groose on altar
+  rotate: true
+  xy: 1298, 179
+  size: 95, 53
+  orig: 96, 58
+  offset: 1, 0
+  index: -1
