@@ -1,7 +1,7 @@
 {
 	"buffs": [
 	{
-			"id": "Nos_Drain_MaxHP_1B",
+			"id": "Holly_Drain_MaxHP_1B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 2,
@@ -16,7 +16,7 @@
 			}
 		},
 		{
-			"id": "Nos_Drain_MaxHP_2B",
+			"id": "Holly_Drain_MaxHP_2B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 2,
@@ -31,7 +31,7 @@
 			}
 		},
 		{
-			"id": "Nos_Drain_MaxHP_3B",
+			"id": "Holly_Drain_MaxHP_3B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 3,
@@ -46,7 +46,7 @@
 			}
 		},
 		{
-			"id": "Nos_Drain_MaxHP_4B",
+			"id": "Holly_Drain_MaxHP_4B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 3,
@@ -61,7 +61,7 @@
 			}
 		},
 		{
-			"id": "Nos_Drain_MaxHP_5B",
+			"id": "Holly_Drain_MaxHP_5B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 4,
@@ -76,7 +76,7 @@
 			}
 		},
 		{
-			"id": "Nos_Drain_MaxHP_1D",
+			"id": "Holly_Drain_MaxHP_1D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -2,
@@ -91,7 +91,7 @@
 			}
 		},
 		{
-			"id": "Nos_Drain_MaxHP_2D",
+			"id": "Holly_Drain_MaxHP_2D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -2,
@@ -106,7 +106,7 @@
 			}
 		},
 		{
-			"id": "Nos_Drain_MaxHP_3D",
+			"id": "Holly_Drain_MaxHP_3D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -3,
@@ -121,7 +121,7 @@
 			}
 		},
 		{
-			"id": "Nos_Drain_MaxHP_4D",
+			"id": "Holly_Drain_MaxHP_4D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -3,
@@ -136,7 +136,7 @@
 			}
 		},
 		{
-			"id": "Nos_Drain_MaxHP_5D",
+			"id": "Holly_Drain_MaxHP_5D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -4,
@@ -203,7 +203,7 @@
 			}
 		},
 		{
-			"id": "jiangshi_BLEED_DEBUFF_1",
+			"id": "jiangshi_BLEED_DEBUFF_2",
 			"stat_type": "resistance",
 			"stat_sub_type": "bleed",
 			"amount": -0.11,
@@ -216,7 +216,7 @@
 			}
 		},
 		{
-			"id": "jiangshi_BLEED_DEBUFF_1",
+			"id": "jiangshi_BLEED_DEBUFF_3",
 			"stat_type": "resistance",
 			"stat_sub_type": "bleed",
 			"amount": -0.14,
@@ -229,7 +229,7 @@
 			}
 		},
 		{
-			"id": "jiangshi_BLEED_DEBUFF_5",
+			"id": "jiangshi_BLEED_DEBUFF_4",
 			"stat_type": "resistance",
 			"stat_sub_type": "bleed",
 			"amount": -0.17,
@@ -268,7 +268,7 @@
 			}
 		},
 		{
-			"id": "jiangshi_BLIGHT_DEBUFF_1",
+			"id": "jiangshi_BLIGHT_DEBUFF_2",
 			"stat_type": "resistance",
 			"stat_sub_type": "poison",
 			"amount": -0.11,
@@ -281,7 +281,7 @@
 			}
 		},
 		{
-			"id": "jiangshi_BLIGHT_DEBUFF_1",
+			"id": "jiangshi_BLIGHT_DEBUFF_3",
 			"stat_type": "resistance",
 			"stat_sub_type": "poison",
 			"amount": -0.14,
@@ -294,7 +294,7 @@
 			}
 		},
 		{
-			"id": "jiangshi_BLIGHT_DEBUFF_5",
+			"id": "jiangshi_BLIGHT_DEBUFF_4",
 			"stat_type": "resistance",
 			"stat_sub_type": "poison",
 			"amount": -0.17,
