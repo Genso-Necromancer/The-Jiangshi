@@ -42,16 +42,16 @@ combat_skill: .id "ji_detect_breath" .level 3 .type "ranged" .atk 110% .dmg -100
 combat_skill: .id "ji_detect_breath" .level 4 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "Jiangshi Mark" "jiangshi lost&blind 5" "jiangshi_cure"
 
 // Drain Chi
-combat_skill: .id "ji_drain_chi" .level 0 .type "ranged" .atk 85%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 1" "jiangshi Attack Chi Buff 1" "Chi Fatigue SPD 1" "Chi Fatigue Dodge 1"
-combat_skill: .id "ji_drain_chi" .level 1 .type "ranged" .atk 90%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 2" "jiangshi Attack Chi Buff 2" "Chi Fatigue SPD 2" "Chi Fatigue Dodge 2"
-combat_skill: .id "ji_drain_chi" .level 2 .type "ranged" .atk 95%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 3" "jiangshi Attack Chi Buff 3" "Chi Fatigue SPD 3" "Chi Fatigue Dodge 3" 
-combat_skill: .id "ji_drain_chi" .level 3 .type "ranged" .atk 100%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 4" "jiangshi Attack Chi Buff 4" "Chi Fatigue SPD 4" "Chi Fatigue Dodge 4"
-combat_skill: .id "ji_drain_chi" .level 4 .type "ranged" .atk 105%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 5" "jiangshi Attack Chi Buff 5" "Chi Fatigue SPD 5" "Chi Fatigue Dodge 5"
-combat_skill: .id "ji_drain_chi" .level 0 .effect "Jiangshi Hp Chi Steal 1" "Jiangshi Hp Chi Steal Debuff 1" "jiangshi_cure"
-combat_skill: .id "ji_drain_chi" .level 1 .effect "Jiangshi Hp Chi Steal 2" "Jiangshi Hp Chi Steal Debuff 2" "jiangshi_cure"
-combat_skill: .id "ji_drain_chi" .level 2 .effect "Jiangshi Hp Chi Steal 3" "Jiangshi Hp Chi Steal Debuff 3" "jiangshi_cure"
-combat_skill: .id "ji_drain_chi" .level 3 .effect "Jiangshi Hp Chi Steal 4" "Jiangshi Hp Chi Steal Debuff 4" "jiangshi_cure"
-combat_skill: .id "ji_drain_chi" .level 4 .effect "Jiangshi Hp Chi Steal 5" "Jiangshi Hp Chi Steal Debuff 5" "jiangshi_cure"
+combat_skill: .id "ji_drain_chi" .level 0 .damage_heal_base_class_ids jiangshi .type "ranged" .atk 85%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 1" "jiangshi Attack Chi Buff 1" "Chi Fatigue SPD 1" "Chi Fatigue Dodge 1"
+combat_skill: .id "ji_drain_chi" .level 1 .damage_heal_base_class_ids jiangshi .type "ranged" .atk 90%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 2" "jiangshi Attack Chi Buff 2" "Chi Fatigue SPD 2" "Chi Fatigue Dodge 2"
+combat_skill: .id "ji_drain_chi" .level 2 .damage_heal_base_class_ids jiangshi .type "ranged" .atk 95%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 3" "jiangshi Attack Chi Buff 3" "Chi Fatigue SPD 3" "Chi Fatigue Dodge 3" 
+combat_skill: .id "ji_drain_chi" .level 3 .damage_heal_base_class_ids jiangshi .type "ranged" .atk 100%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 4" "jiangshi Attack Chi Buff 4" "Chi Fatigue SPD 4" "Chi Fatigue Dodge 4"
+combat_skill: .id "ji_drain_chi" .level 4 .damage_heal_base_class_ids jiangshi .type "ranged" .atk 105%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 5" "jiangshi Attack Chi Buff 5" "Chi Fatigue SPD 5" "Chi Fatigue Dodge 5"
+combat_skill: .id "ji_drain_chi" .level 0 .effect "Jiangshi Hp Chi Steal 1" "Jiangshi Hp Chi Steal Debuff 1" "Jiangshi Lifedrain Scaling 1" "jiangshi_cure"
+combat_skill: .id "ji_drain_chi" .level 1 .effect "Jiangshi Hp Chi Steal 2" "Jiangshi Hp Chi Steal Debuff 2" "Jiangshi Lifedrain Scaling 2" "jiangshi_cure"
+combat_skill: .id "ji_drain_chi" .level 2 .effect "Jiangshi Hp Chi Steal 3" "Jiangshi Hp Chi Steal Debuff 3" "Jiangshi Lifedrain Scaling 3" "jiangshi_cure"
+combat_skill: .id "ji_drain_chi" .level 3 .effect "Jiangshi Hp Chi Steal 4" "Jiangshi Hp Chi Steal Debuff 4" "Jiangshi Lifedrain Scaling 4" "jiangshi_cure"
+combat_skill: .id "ji_drain_chi" .level 4 .effect "Jiangshi Hp Chi Steal 5" "Jiangshi Hp Chi Steal Debuff 5" "Jiangshi Lifedrain Scaling 5" "jiangshi_cure"
 
 // Fearful Song
 combat_skill: .id "ji_fearful_song" .level 0 .type "ranged" .atk 65% .dmg -90% .crit 0% .move 1 0 .is_crit_valid true .launch 432 .target 12 .effect "jiangshi_cure" "jiangshi Stun 1" .move 1 0 

@@ -88,6 +88,12 @@ effect: .name "Jiangshi Hp Chi Steal Debuff 3" .target "target"  .chance 1200%  
 effect: .name "Jiangshi Hp Chi Steal Debuff 4" .target "target"  .chance 1300%  .buff_ids Jiangshi_Drain_MaxHP_4D .on_hit true .on_miss false .apply_once true .has_description true .queue true .buff_duration_type combat_end	.duration 1
 effect: .name "Jiangshi Hp Chi Steal Debuff 5" .target "target"  .chance 1400%  .buff_ids Jiangshi_Drain_MaxHP_5D .on_hit true .on_miss false .apply_once true .has_description true .queue true .buff_duration_type combat_end	.duration 1
 
+effect: .name "Jiangshi Lifedrain Scaling 1" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "jiangshi_lifesteal_Scaling_1" .on_hit true .on_miss false .has_description false
+effect: .name "jiangshi Lifedrain Scaling 2" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "jiangshi_lifesteal_Scaling_2" .on_hit true .on_miss false .has_description false
+effect: .name "jiangshi Lifedrain Scaling 3" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "jiangshi_lifesteal_Scaling_3" .on_hit true .on_miss false .has_description false
+effect: .name "Jiangshi Lifedrain Scaling 4" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "jiangshi_lifesteal_Scaling_4" .on_hit true .on_miss false .has_description false
+effect: .name "jiangshi Lifedrain Scaling 5" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "jiangshi_lifesteal_Scaling_5" .on_hit true .on_miss false .has_description false
+
 //Spd&Dodge Debuff
 effect: .name "Chi Fatigue SPD 1" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add -1	.on_hit true .on_miss false
 effect: .name "Chi Fatigue SPD 2" .target "target" .chance 110% .combat_stat_buff 1 .speed_rating_add -2	.on_hit true .on_miss false
