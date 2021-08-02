@@ -1,7 +1,7 @@
 {
 	"buffs": [
 	{
-			"id": "Holly_Drain_MaxHP_1B",
+			"id": "Jiangshi_Drain_MaxHP_1B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 2,
@@ -16,7 +16,7 @@
 			}
 		},
 		{
-			"id": "Holly_Drain_MaxHP_2B",
+			"id": "Jiangshi_Drain_MaxHP_2B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 2,
@@ -31,7 +31,7 @@
 			}
 		},
 		{
-			"id": "Holly_Drain_MaxHP_3B",
+			"id": "Jiangshi_Drain_MaxHP_3B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 3,
@@ -46,7 +46,7 @@
 			}
 		},
 		{
-			"id": "Holly_Drain_MaxHP_4B",
+			"id": "Jiangshi_Drain_MaxHP_4B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 3,
@@ -61,7 +61,7 @@
 			}
 		},
 		{
-			"id": "Holly_Drain_MaxHP_5B",
+			"id": "Jiangshi_Drain_MaxHP_5B",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": 4,
@@ -76,7 +76,7 @@
 			}
 		},
 		{
-			"id": "Holly_Drain_MaxHP_1D",
+			"id": "Jiangshi_Drain_MaxHP_1D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -2,
@@ -91,7 +91,7 @@
 			}
 		},
 		{
-			"id": "Holly_Drain_MaxHP_2D",
+			"id": "Jiangshi_Drain_MaxHP_2D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -2,
@@ -106,7 +106,7 @@
 			}
 		},
 		{
-			"id": "Holly_Drain_MaxHP_3D",
+			"id": "Jiangshi_Drain_MaxHP_3D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -3,
@@ -121,7 +121,7 @@
 			}
 		},
 		{
-			"id": "Holly_Drain_MaxHP_4D",
+			"id": "Jiangshi_Drain_MaxHP_4D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -3,
@@ -136,7 +136,7 @@
 			}
 		},
 		{
-			"id": "Holly_Drain_MaxHP_5D",
+			"id": "Jiangshi_Drain_MaxHP_5D",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "max_hp",
 			"amount": -4,
@@ -149,8 +149,8 @@
 				"float": 0,
 				"string": ""
 			}
-      },
-      {
+		},
+		{
          "id" : "jia_PROT5",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
