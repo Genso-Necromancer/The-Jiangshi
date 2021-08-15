@@ -18,7 +18,7 @@ combat_skill: .id "ji_detect_breath" .icon "three" .anim "attack_detect_breath" 
 combat_skill: .id "ji_drain_chi" .icon "four" .anim "attack_drain_chi" .fx "attack_drain_chi_fx"
 combat_skill: .id "ji_fearful_song" .icon "five" .anim "attack_fearful_song"
 combat_skill: .id "ji_frightful_leap" .icon "six" .anim "attack_frightful_leap"
-combat_skill: .id "ji_horrid_reminder" .icon "seven" .anim "attack_horrid_reminder"
+combat_skill: .id "ji_horrid_reminder" .icon "seven" .anim "attack_horrid_reminder" .condensed_tooltip_effects true
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
 riposte_skill: .id "riposte1" .anim "attack_riposte"

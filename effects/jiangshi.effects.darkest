@@ -102,10 +102,10 @@ effect: .name "Chi Fatigue SPD 4" .target "target" .chance 140% .combat_stat_buf
 effect: .name "Chi Fatigue SPD 5" .target "target" .chance 150% .combat_stat_buff 1 .speed_rating_add -5	.on_hit true .on_miss false
 
 effect: .name "Chi Fatigue Dodge 1" .target "target" .chance 110% .combat_stat_buff 1 .defense_rating_add -10%	.on_hit true .on_miss false .queue false
-effect: .name "Chi Fatigue Dodge 2" .target "target" .chance 120% .combat_stat_buff 1 .defense_rating_add -13%	.on_hit true .on_miss false .queue false
+effect: .name "Chi Fatigue Dodge 2" .target "target" .chance 120% .combat_stat_buff 1 .defense_rating_add -12.5%	.on_hit true .on_miss false .queue false
 effect: .name "Chi Fatigue Dodge 3" .target "target" .chance 130% .combat_stat_buff 1 .defense_rating_add -15%	.on_hit true .on_miss false .queue false
-effect: .name "Chi Fatigue Dodge 4" .target "target" .chance 140% .combat_stat_buff 1 .defense_rating_add -18%	.on_hit true .on_miss false .queue false
-effect: .name "Chi Fatigue Dodge 5" .target "target" .chance 150% .combat_stat_buff 1 .defense_rating_add -21%	.on_hit true .on_miss false .queue false
+effect: .name "Chi Fatigue Dodge 4" .target "target" .chance 140% .combat_stat_buff 1 .defense_rating_add -17.5%	.on_hit true .on_miss false .queue false
+effect: .name "Chi Fatigue Dodge 5" .target "target" .chance 150% .combat_stat_buff 1 .defense_rating_add -20%	.on_hit true .on_miss false .queue false
 
 ////Leap
 //AoE ACC/CRIT Debuff
@@ -142,9 +142,10 @@ effect: .name "Jiangshi Rip Dodge 3" .target "target" .chance 130% .combat_stat_
 effect: .name "Jiangshi Rip Dodge 5" .target "target" .chance 150% .combat_stat_buff 1 .defense_rating_add -10%	.on_hit true .on_miss false .queue false
 
 //Riposte
-effect: .name "jiangshi SPOOKED 1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 2 .damage_low_add 0.15 .damage_high_add 0.15 .attack_rating_add 0.10 .crit_chance_add 2% .riposte_effect "Jiangshi Rip Dodge 1"
-effect: .name "jiangshi SPOOKED 3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 3 .damage_low_add 0.20 .damage_high_add 0.20 .attack_rating_add 0.10 .crit_chance_add 3% .riposte_effect "Jiangshi Rip Dodge 3"
-effect: .name "jiangshi SPOOKED 5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 4 .damage_low_add 0.25 .damage_high_add 0.25 .attack_rating_add 0.15 .crit_chance_add 5% .riposte_effect "Jiangshi Rip Dodge 5"
-
+effect: .name "jiangshi SPOOKED 1"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 4 .damage_low_multiply -0.40 .damage_high_multiply -0.40 .attack_rating_add 0.10 .riposte_effect "Jiangshi Rip Dodge 1"
+effect: .name "jiangshi SPOOKED 2"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 4 .damage_low_multiply -0.33 .damage_high_multiply -0.33 .attack_rating_add 0.10 .riposte_effect "Jiangshi Rip Dodge 1"
+effect: .name "jiangshi SPOOKED 3"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 4 .damage_low_multiply -0.25 .damage_high_multiply -0.25 .attack_rating_add 0.20 .riposte_effect "Jiangshi Rip Dodge 3"
+effect: .name "jiangshi SPOOKED 4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 4 .damage_low_multiply -0.20 .damage_high_multiply -0.20 .attack_rating_add 0.20 .riposte_effect "Jiangshi Rip Dodge 3"
+effect: .name "jiangshi SPOOKED 5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 4 .damage_low_multiply -0.15 .damage_high_multiply -0.15 .attack_rating_add 0.25 .riposte_effect "Jiangshi Rip Dodge 5"
 
 //-----------------------------------------------------------------------------------------------

@@ -35,11 +35,11 @@ combat_skill: .id "ji_destruction" .level 3 .type "ranged" .atk 75% .dmg 25% .cr
 combat_skill: .id "ji_destruction" .level 4 .type "ranged" .atk 80% .dmg 25% .crit 7% .launch 21 .target 12 .effect "jiangshi_cure"
 
 /// Detect Breath
-combat_skill: .id "ji_detect_breath" .level 0 .type "ranged" .atk 95%  .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "Jiangshi Mark" "jiangshi lost&blind 1" "jiangshi_cure"
-combat_skill: .id "ji_detect_breath" .level 1 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "Jiangshi Mark" "jiangshi lost&blind 2" "jiangshi_cure"
-combat_skill: .id "ji_detect_breath" .level 2 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "Jiangshi Mark" "jiangshi lost&blind 3" "jiangshi_cure"
-combat_skill: .id "ji_detect_breath" .level 3 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "Jiangshi Mark" "jiangshi lost&blind 4" "jiangshi_cure"
-combat_skill: .id "ji_detect_breath" .level 4 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "Jiangshi Mark" "jiangshi lost&blind 5" "jiangshi_cure"
+combat_skill: .id "ji_detect_breath" .level 0 .type "ranged" .atk 95%  .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "jiangshi Attack Buff 1" "Jiangshi Mark" "jiangshi lost&blind 1" "jiangshi_cure"
+combat_skill: .id "ji_detect_breath" .level 1 .type "ranged" .atk 100% .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "jiangshi Attack Buff 2" "Jiangshi Mark" "jiangshi lost&blind 2" "jiangshi_cure"
+combat_skill: .id "ji_detect_breath" .level 2 .type "ranged" .atk 105% .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "jiangshi Attack Buff 3" "Jiangshi Mark" "jiangshi lost&blind 3" "jiangshi_cure"
+combat_skill: .id "ji_detect_breath" .level 3 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "jiangshi Attack Buff 4" "Jiangshi Mark" "jiangshi lost&blind 4" "jiangshi_cure"
+combat_skill: .id "ji_detect_breath" .level 4 .type "ranged" .atk 115% .dmg -100% .crit 0% .launch 1234 .target 1234 .is_crit_valid False .ignore_stealth true .effect "Destealth" "jiangshi Attack Buff 5" "Jiangshi Mark" "jiangshi lost&blind 5" "jiangshi_cure"
 
 // Drain Chi
 combat_skill: .id "ji_drain_chi" .level 0 .damage_heal_base_class_ids jiangshi .type "ranged" .atk 85%  .dmg -50% .launch 21 .target 123 .is_crit_valid False .effect "jiangshi Healthy DMG Bonus" "jiangshi prot 1" "jiangshi Attack Chi Buff 1" "Chi Fatigue SPD 1" "Chi Fatigue Dodge 1"
