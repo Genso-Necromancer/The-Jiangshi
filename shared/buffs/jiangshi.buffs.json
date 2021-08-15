@@ -242,7 +242,7 @@
 			"stat_sub_type": "damage_high",
 			"amount": 1.2,
 			"remove_if_not_active": false,
-			"rule_type": "hpabove",
+			"rule_type": "target_hpabove",
 			"is_false_rule": false,
 			"rule_data": {
 				"float": 0.75,
@@ -255,7 +255,7 @@
 			"stat_sub_type": "damage_low",
 			"amount": 1.2,
 			"remove_if_not_active": false,
-			"rule_type": "hpabove",
+			"rule_type": "target_hpabove",
 			"is_false_rule": false,
 			"rule_data": {
 				"float": 0.75,

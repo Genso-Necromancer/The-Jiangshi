@@ -69,9 +69,9 @@ combat_skill: .id "ji_frightful_leap" .level 4 .type "melee" .atk 105% .dmg -66%
 
 // Horrid Reminder
 combat_skill: .id "ji_horrid_reminder" .level 0 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 1" "jiangshi Stress 1" "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 1 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 1" "jiangshi Stress 2" "jiangshi_cure" .is_crit_valid False
+combat_skill: .id "ji_horrid_reminder" .level 1 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 2" "jiangshi Stress 2" "jiangshi_cure" .is_crit_valid False
 combat_skill: .id "ji_horrid_reminder" .level 2 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 3" "jiangshi Stress 3" "jiangshi_cure" .is_crit_valid False
-combat_skill: .id "ji_horrid_reminder" .level 3 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 3" "jiangshi Stress 4" "jiangshi_cure" .is_crit_valid False
+combat_skill: .id "ji_horrid_reminder" .level 3 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 4" "jiangshi Stress 4" "jiangshi_cure" .is_crit_valid False
 combat_skill: .id "ji_horrid_reminder" .level 4 .move 2 0 .launch 12 .target .effect "jiangshi SPOOKED 5" "jiangshi Stress 5" "jiangshi_cure" .is_crit_valid False
 
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
