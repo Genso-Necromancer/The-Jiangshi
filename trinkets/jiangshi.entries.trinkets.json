@@ -1,105 +1,89 @@
 {
-   "entries":
-   [
-      {
-         "id" : "jiang_coins",
-         "buffs" : 
-         [
-            "MAXHP20"
-         ],
-         "hero_class_requirements":
-         [
-            "jiangshi"
-         ],
-         "rarity" : "common",
-         "price" : 7500,
-         "limit" : 0,
-         "origin_dungeon" : ""
-      },
-	  {
-         "id" : "jiang_bell",
-         "buffs" : 
-         [
-			"MAXHP20"
-         ],
-         "hero_class_requirements":
-         [
-            "jiangshi"
-         ],
-         "rarity" : "uncommon",
-         "price" : 15000,
-         "limit" : 0,
-         "origin_dungeon" : ""
-      },
-	  {
-         "id" : "jiang_pipa",
-         "buffs" : 
-         [
-            
-			"MAXHP20"
-         ],
-         "hero_class_requirements":
-         [
-            "jiangshi"
-         ],
-         "rarity" : "rare",
-         "price" : 10000,
-         "limit" : 0,
-         "origin_dungeon" : ""
-      },
-	  {
-         "id" : "jiang_poison",
-         "buffs" : 
-         [
-			"MAXHP20"
-         ],
-         "hero_class_requirements":
-         [
-            "jiangshi"
-         ],
-         "rarity" : "very_rare,
-         "price" : 10000,
-         "limit" : 0,
-         "origin_dungeon" : ""
-      },
-	  {
-         "id" : "jiang_blood",
-         "buffs" : 
-         [		
-			"MAXHP20"
-         ],
-         "hero_class_requirements":
-         [
-			"jiangshi"
-		 ],
-         "rarity" : "very_rare",
-         "price" : 25000,
-         "limit" : 0,
-         "origin_dungeon" : "",
-		  "attack_skill_additional_effects":
-        [
-            "MAXHP20"
-        ]
-      },
-	  {
-         "id" : "jiang_nukekubi",
-         "buffs" : 
-         [
-			"MAXHP20"
-         ],
-         "hero_class_requirements":
-         [
-            "jiangshi"
-         ],
-		 "rarity" : "sakura",
-		 "price" : 30000,
-         "limit" : 1,
-         "origin_dungeon" : "",
-		 "attack_crit_additional_effects":
-        [
-		  "MAXHP20"
-		  
-        ]
-      }
-   ]
+	"entries": [{
+			"id": "jiang_coins",
+			"buffs": [
+				"MAXHP20"
+			],
+			"hero_class_requirements": [
+				"jiangshi"
+			],
+			"rarity": "common",
+			"price": 7500,
+			"limit": 0,
+			"origin_dungeon": ""
+		},
+		{
+			"id": "jiang_bell",
+			"buffs": [
+				"MAXHP20"
+			],
+			"hero_class_requirements": [
+				"jiangshi"
+			],
+			"rarity": "uncommon",
+			"price": 15000,
+			"limit": 0,
+			"origin_dungeon": ""
+		},
+		{
+			"id": "jiang_pipa",
+			"buffs": [
+
+				"MAXHP20"
+			],
+			"hero_class_requirements": [
+				"jiangshi"
+			],
+			"rarity": "rare",
+			"price": 10000,
+			"limit": 0,
+			"origin_dungeon": ""
+		},
+		{
+			"id": "jiang_poison",
+			"buffs": [
+				"MAXHP20"
+			],
+			"hero_class_requirements": [
+				"jiangshi"
+			],
+			"rarity": "very_rare",
+			"price": 10000,
+			"limit": 0,
+			"origin_dungeon": ""
+		},
+		{
+			"id": "jiang_blood",
+			"buffs": [
+				"MAXHP20"
+			],
+			"hero_class_requirements": [
+				"jiangshi"
+			],
+			"rarity": "very_rare",
+			"price": 25000,
+			"limit": 0,
+			"origin_dungeon": "",
+			"attack_skill_additional_effects": [
+				"MAXHP20"
+			]
+		},
+		{
+			"id": "jiang_nukekubi",
+			"buffs": [
+				"MAXHP20"
+			],
+			"hero_class_requirements": [
+				"jiangshi"
+			],
+			"rarity": "sakura",
+			"price": 30000,
+			"limit": 1,
+			"origin_dungeon": "",
+			"attack_crit_additional_effects": [
+				"MAXHP20"
+
+			]
+		}
+	]
 }
