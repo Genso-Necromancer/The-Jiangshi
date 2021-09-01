@@ -1,0 +1,39 @@
+{
+   "entries":
+   [
+      {
+         "id" : "jiang_poster",
+         "buffs" : 
+         [
+			"MAXHP20"
+         ],
+         "hero_class_requirements":
+         [
+            "jiangshi"
+         ],
+         "set_id" : "cc_jiangshi",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "jiang_robes",
+         "buffs" : 
+         [
+          "MAXHP20"
+		  
+		  
+         ],
+         "hero_class_requirements":
+         [
+            "jiangshi"
+         ],
+         "set_id" : "cc_jiangshi",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      }
+   ]
+}

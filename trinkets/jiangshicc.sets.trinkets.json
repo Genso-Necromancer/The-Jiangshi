@@ -1,0 +1,12 @@
+{
+   "sets":
+   [
+      {
+         "id" : "cc_jiangshi",
+         "buffs" : 
+         [
+            "MAXHP20"
+         ]
+      }
+   ]
+}

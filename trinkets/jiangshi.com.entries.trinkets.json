@@ -1,0 +1,25 @@
+{
+   "entries":
+   [
+      {
+         "id" : "jiang_coffin",
+         "buffs" : 
+         [
+			"MAXHP20"
+         ],
+         "hero_class_requirements":
+         [
+            "jiangshi"
+         ],
+         "rarity" : "comet",
+         "shard" : 98,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		"friendly_skill_additional_effects":
+        [
+		  "MAXHP20"
+		  
+        ]
+	}
+   ]
+}

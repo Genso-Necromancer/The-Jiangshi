@@ -81,6 +81,9 @@ riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 100% .dmg -33% .crit 0
 tag: .id "heavy"
 tag: .id "non-religious"
 
+extra_curio_loot:  .code "JIANGSHI_T" .count 1
+extra_battle_loot:  .code "JIANGSHI_T" .count 1
+
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff .enter_effects Shadowdeathbuff NosferatuDeathRegen .enter_effect_round_cooldown 6
 controlled: .target_rank 1
 id_index: .index 0
