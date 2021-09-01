@@ -523,64 +523,12 @@
 			}
 		},
 		{
-			"id": "jiangshi_DEBUFF_VS_MARK_1",
-			"stat_type": "debuff_chance",
+			"id": "jiangshi_self_mark_stun",
+			"stat_type": "stun_chance",
 			"stat_sub_type": "",
-			"amount": 1,
+			"amount": -0.2,
 			"remove_if_not_active": false,
-			"rule_type": "actorStatus",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "tagged"
-			}
-		},
-		{
-			"id": "jiangshi_DEBUFF_VS_MARK_2",
-			"stat_type": "debuff_chance",
-			"stat_sub_type": "",
-			"amount": 1.1,
-			"remove_if_not_active": false,
-			"rule_type": "actorStatus",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "tagged"
-			}
-		},
-		{
-			"id": "jiangshi_DEBUFF_VS_MARK_3",
-			"stat_type": "debuff_chance",
-			"stat_sub_type": "",
-			"amount": 1.2,
-			"remove_if_not_active": false,
-			"rule_type": "actorStatus",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "tagged"
-			}
-		},
-		{
-			"id": "jiangshi_DEBUFF_VS_MARK_4",
-			"stat_type": "debuff_chance",
-			"stat_sub_type": "",
-			"amount": 1.3,
-			"remove_if_not_active": false,
-			"rule_type": "actorStatus",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "tagged"
-			}
-		},
-		{
-			"id": "jiangshi_DEBUFF_VS_MARK_5",
-			"stat_type": "debuff_chance",
-			"stat_sub_type": "",
-			"amount": 1.4,
-			"remove_if_not_active": false,
-			"rule_type": "actorStatus",
+			"rule_type": "is_actor_status",
 			"is_false_rule": false,
 			"rule_data": {
 				"float": 0,
