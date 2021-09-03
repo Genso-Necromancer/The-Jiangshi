@@ -7,7 +7,7 @@
 			"hero_class_requirements": [
 				"jiangshi"
 			],
-			"rarity": "common",
+			"rarity": "very_common",
 			"price": 7500,
 			"limit": 0,
 			"origin_dungeon": ""
@@ -20,7 +20,7 @@
 			"hero_class_requirements": [
 				"jiangshi"
 			],
-			"rarity": "uncommon",
+			"rarity": "common",
 			"price": 15000,
 			"limit": 0,
 			"origin_dungeon": ""
@@ -60,7 +60,7 @@
 			"hero_class_requirements": [
 				"jiangshi"
 			],
-			"rarity": "very_rare",
+			"rarity": "uncommon",
 			"price": 25000,
 			"limit": 0,
 			"origin_dungeon": "",
