@@ -2,7 +2,7 @@
 	"entries": [{
 			"id": "jiang_coins",
 			"buffs": [
-				"MAXHP20"
+				"jiangshi_coin_prot", "jiangshi_coin_spd_debuff"
 			],
 			"hero_class_requirements": [
 				"jiangshi"
@@ -15,7 +15,7 @@
 		{
 			"id": "jiang_bell",
 			"buffs": [
-				"MAXHP20"
+				"jiangshi_stun_vs_unholy", "jiangshi__stun_bell_debuff"
 			],
 			"hero_class_requirements": [
 				"jiangshi"

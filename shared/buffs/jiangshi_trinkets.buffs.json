@@ -1,0 +1,63 @@
+{
+	"buffs": [
+	{
+			"id": "jiangshi_stun_vs_unholy",
+			"stat_type": "stun_chance",
+			"stat_sub_type": "",
+			"amount": 0.2,
+			"remove_if_not_active": false,
+			"rule_type": "monsterType",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "unholy"
+		}
+      },
+      {
+		"id": "jiangshi__stun_bell_debuff",
+			"stat_type" : "resistance",
+         		"stat_sub_type" : "stun",
+			"amount" : -0.15,
+         		"remove_if_not_active" : false,
+         		"rule_type" : "always",
+         		"is_false_rule" : false,
+         		"rule_data" : {
+           		 "float" : 0,
+           		 "string" : ""
+	}
+      },
+      {
+         "id" : "jiangshi_coin_prot",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+	}
+      },
+      {
+         "id" : "jiangshi_coin_spd_debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -1,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		
+			}
+		}
+		
+		
+
+	]
+
+
+}
