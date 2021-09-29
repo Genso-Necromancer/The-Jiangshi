@@ -18,7 +18,7 @@
          "origin_dungeon" : "courtyard"
       },
       {
-         "id" : "jiang_robes",
+         "id" : "jiang_poison",
          "buffs" : 
          [
           "MAXHP20"
