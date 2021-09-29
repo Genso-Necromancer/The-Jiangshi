@@ -1,20 +1,20 @@
 
-jiangshi.sprite.attack_frightful_leap.png
+jiangshi.sprite.attack_haunt.png
 size: 1024,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Pasted Layer
+SPRITE
   rotate: false
-  xy: 2, 71
-  size: 789, 820
-  orig: 789, 820
+  xy: 2, 81
+  size: 874, 848
+  orig: 874, 848
   offset: 0, 0
   index: -1
-shadow
+shadow_ground
   rotate: false
   xy: 2, 2
-  size: 350, 67
-  orig: 350, 67
+  size: 357, 77
+  orig: 357, 77
   offset: 0, 0
   index: -1

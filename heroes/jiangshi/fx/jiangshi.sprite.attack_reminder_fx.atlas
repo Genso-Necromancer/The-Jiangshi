@@ -1,0 +1,34 @@
+
+jiangshi.sprite.attack_reminder_fx.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BLUR
+  rotate: false
+  xy: 2, 1100
+  size: 916, 828
+  orig: 916, 828
+  offset: 0, 0
+  index: -1
+FX
+  rotate: false
+  xy: 920, 1367
+  size: 593, 561
+  orig: 593, 561
+  offset: 0, 0
+  index: -1
+LIGHT
+  rotate: false
+  xy: 2, 2
+  size: 399, 265
+  orig: 399, 265
+  offset: 0, 0
+  index: -1
+SHADOW
+  rotate: false
+  xy: 2, 269
+  size: 610, 829
+  orig: 610, 829
+  offset: 0, 0
+  index: -1

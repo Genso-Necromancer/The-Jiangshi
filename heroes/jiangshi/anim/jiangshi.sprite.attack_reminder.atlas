@@ -1,19 +1,19 @@
 
-jiangshi.sprite.attack_riposte.png
-size: 1024,1024
+jiangshi.sprite.attack_reminder.png
+size: 913,751
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 SPRITE
-  rotate: false
-  xy: 2, 81
-  size: 926, 826
-  orig: 926, 826
+  rotate: true
+  xy: 2, 2
+  size: 747, 830
+  orig: 747, 830
   offset: 0, 0
   index: -1
 shadow_ground
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 834, 392
   size: 357, 77
   orig: 357, 77
   offset: 0, 0

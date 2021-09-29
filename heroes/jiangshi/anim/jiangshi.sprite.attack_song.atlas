@@ -1,20 +1,20 @@
 
-jiangshi.sprite.attack_fearful_song.png
-size: 1024,1024
+jiangshi.sprite.attack_song.png
+size: 1011,761
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Pasted Layer
+SPRITE
   rotate: false
-  xy: 2, 71
+  xy: 2, 2
   size: 928, 757
   orig: 928, 757
   offset: 0, 0
   index: -1
-shadow
-  rotate: false
-  xy: 2, 2
-  size: 350, 67
-  orig: 350, 67
+shadow_ground
+  rotate: true
+  xy: 932, 402
+  size: 357, 77
+  orig: 357, 77
   offset: 0, 0
   index: -1

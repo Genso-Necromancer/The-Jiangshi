@@ -1,6 +1,6 @@
 
 jiangshi.sprite.attack_detect_breath_fx.png
-size: 2048,1024
+size: 4096,1024
 format: RGBA8888
 filter: Linear,Linear
 repeat: none

@@ -1,0 +1,27 @@
+
+jiangshi.sprite.attack_riposte_fx.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FX
+  rotate: false
+  xy: 2, 298
+  size: 1250, 502
+  orig: 1250, 502
+  offset: 0, 0
+  index: -1
+LIGHT
+  rotate: false
+  xy: 2, 2
+  size: 461, 294
+  orig: 461, 294
+  offset: 0, 0
+  index: -1
+SHADOW
+  rotate: false
+  xy: 2, 802
+  size: 1203, 940
+  orig: 1203, 940
+  offset: 0, 0
+  index: -1

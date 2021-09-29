@@ -13,13 +13,11 @@ armour: .name "jiangshi_armour_3" .icon "eqp_armour_3.png"
 armour: .name "jiangshi_armour_4" .icon "eqp_armour_4.png"
 
 combat_skill: .id "ji_claws_swipe" .icon "one" .anim "attack_claw_swipe" .fx "attack_claw_swipe_fx"
-combat_skill: .id "ji_destruction" .icon "two" .anim "attack_destruction"
+combat_skill: .id "ji_destruction" .icon "two" .anim "attack_haunt" .fx "attack_haunt_fx"
 combat_skill: .id "ji_detect_breath" .icon "three" .anim "attack_detect_breath" .fx "attack_detect_breath_fx"
 combat_skill: .id "ji_drain_chi" .icon "four" .anim "attack_drain_chi" .fx "attack_drain_chi_fx"
-combat_skill: .id "ji_fearful_song" .icon "five" .anim "attack_fearful_song"
-combat_skill: .id "ji_frightful_leap" .icon "six" .anim "attack_frightful_leap"
-combat_skill: .id "ji_horrid_reminder" .icon "seven" .anim "attack_horrid_reminder"
+combat_skill: .id "ji_fearful_song" .icon "five" .anim "attack_song" .fx "attack_song_fx"
+combat_skill: .id "ji_frightful_leap" .icon "six" .anim "attack_hop" .fx "attack_hop_fx"
+combat_skill: .id "ji_horrid_reminder" .icon "seven" .anim "attack_reminder" .fx "attack_reminder_fx"
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
-riposte_skill: .id "riposte1" .anim "attack_riposte"
-
-//rendering: .sort_position_z_rank_override -5
+riposte_skill: .id "riposte1" .anim "attack_riposte" .fx "attack_riposte_fx"

@@ -30,7 +30,7 @@
          "id" : "jiangshi_coin_prot",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
-         "amount" : 0.5,
+         "amount" : 0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
