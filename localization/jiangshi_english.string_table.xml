@@ -39,91 +39,12 @@
     	<entry id="str_incompatible_party_member_jiangshi_limit"><![CDATA[I am the true master!]]></entry>
     	<entry id="str_incompatible_party_member_jiangshi_limit"><![CDATA[I don't intend on treating you as an equal...]]></entry>
 
-<entry id="town_event_title_jiangshi_activate_quest"><![CDATA[Dark Offering]]></entry>
-
-<entry id="town_event_description_jiangshi_activate_quest"><![CDATA[The Acolyte tells us that one more sacrifice must be made, a sacrifice of innocence to allow his master to enter out hamlet.]]></entry>
-
-<entry id="town_quest_name_jiangshi_activate"><![CDATA[Dark Offering]]></entry>
-
-<entry id="town_quest_progress_jiangshi_activate"><![CDATA[Make the final offering]]></entry>
-
-<entry id="town_quest_description_jiangshi_activate"><![CDATA[The Acolyte has built the alter and made the rite all we have to do is make the offering...]]></entry>
-
 
 
 
 	
 <!--CAMPING -->	
-	<entry id="camping_skill_effect_loot_vv_bleed_tooltip"><![CDATA[{colour_start|bleed}Bleed{colour_end} 3 pts/rd for 3 rds]]></entry>
-    	<entry id="camping_skill_effect_loot_vv_dark_tooltip"><![CDATA[(Removed if above Threshold)]]></entry>
-	
-	<entry id="camping_skill_name_jiangshi_0"><![CDATA[ADERLASS]]></entry>
-	<entry id="camping_skill_name_jiangshi_1"><![CDATA[SHADOWFORM]]></entry>
-    	<entry id="camping_skill_name_jiangshi_2"><![CDATA[FROM THE DARK]]></entry>
-    	<entry id="camping_skill_name_jiangshi_3"><![CDATA[WHEN THEY SLEEP]]></entry>    
-	<entry id="camping_skill_name_jiangshi_4"><![CDATA[SCENT OF BLOOD]]></entry>
-	
-	<entry id="camping_skill_effect_loot_VV_CAMP_CHALICE"><![CDATA[Produce a Chalice]]></entry>
-	<entry id="camping_skill_effect_loot_jiangshi_bleed_tooltip"><![CDATA[{colour_start|bleed}Bleed{colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="camping_skill_effect_loot_vv_reg_tooltip"><![CDATA[{colour_start|healhp}Heal{colour_end} 1 pts for 10 rds]]></entry>
-	<entry id="camping_skill_effect_loot_vv_horror_tooltip"><![CDATA[{colour_start|stress}Horror{colour_end} 2 pts for 10 rds]]></entry>
 
-	<!--CAMPING Barks-->	
-	<entry id="camping_skill_name_first_aid"><![CDATA[FIRST AID]]></entry>
-	<entry id="camping_skill_name_nos_encourage"><![CDATA[HORROR STORY]]></entry>
-	<entry id="camping_skill_name_nos_pep_talk"><![CDATA[DARK WHISPERS]]></entry>
-
-	
-	<entry id="jiangshi+str_bark_jiangshi_0"><![CDATA[There is no poison or sword that can break this flesh.]]></entry>
-        <entry id="jiangshi+str_bark_jiangshi_0"><![CDATA[We don't want to waste all that precious vitality, do we now?]]></entry>
-	<entry id="jiangshi+str_bark_jiangshi_0"><![CDATA[No wound will find a vital organ in this body.]]></entry>
-	<entry id="jiangshi+str_bark_jiangshi_0"><![CDATA[At my age the pain of others exudes certain... beauty.]]></entry>
-	<entry id="jiangshi+str_bark_jiangshi_0"><![CDATA[I have forgotten what pain feels like.]]></entry>
-		
-	<entry id="jiangshi+str_bark_vv_encourage"><![CDATA[Your praiseworthy feats have instilled fear in the enemy. I can smell it from here ...]]></entry>
-	<entry id="jiangshi+str_bark_vv_encourage"><![CDATA[Our mission is coming to an end, victory is near and with it will come our reward!]]></entry>
-	<entry id="jiangshi+str_bark_vv_encourage"><![CDATA[Don't worry, The shadows are my allies, and they will protect us.]]></entry>
-	<entry id="jiangshi+str_bark_vv_encourage"><![CDATA[I'm sure you can handle it all!]]></entry>
-		
-	<entry id="jiangshi+str_bark_vv_pep_talk"><![CDATA[If you feel your god doesn't watch over you, you may always come to me. Honestly, I'm more reliable.]]></entry>
-	<entry id="jiangshi+str_bark_vv_pep_talk"><![CDATA[Do not fear death, come... Rest your head on my shoulder and close your eyes.]]></entry>
-	<entry id="jiangshi+str_bark_vv_pep_talk"><![CDATA[You don't have to be afraid of me. I know what it is to be... different.]]></entry>
-	<entry id="jiangshi+str_bark_vv_pep_talk"><![CDATA[It's admirable how you have fought, for such a... limited creature.]]></entry>
-		
-	<entry id="str_bark_jiangshi_4"><![CDATA[UP! RAISE IT UP! This one was still alive.]]></entry>
-	<entry id="str_bark_jiangshi_4"><![CDATA[Does it smell good up there? HAHAHAHAHA!]]></entry>
-	<entry id="str_bark_jiangshi_4"><![CDATA[I'll make a forest with our enemies...]]></entry>
-	<entry id="str_bark_jiangshi_4"><![CDATA[Let the agony of them be seen from a distance! Let them know who they face!]]></entry>
-	
-		
-        <entry id="str_bark_jiangshi_0"><![CDATA[[There is no poison or sword that can break this flesh.]]></entry>
-        <entry id="str_bark_jiangshi_0"><![CDATA[[We don't want to waste all that precious vitality, do we now?]]></entry>
-        <entry id="str_bark_jiangshi_0"><![CDATA[[No wound will find a vital organ in this body.]]></entry>
-        <entry id="str_bark_jiangshi_0"><![CDATA[[At my age the pain of others exudes certain... beauty.]]></entry>
-        <entry id="str_bark_jiangshi_0"><![CDATA[[I have forgotten what pain feels like.]]></entry>
-	
-	
-	<entry id="str_bark_jiangshi_1"><![CDATA[Look, the full moon rises in the sky...]]></entry>
-	<entry id="str_bark_jiangshi_1"><![CDATA[The children of the night, what sweet music they play...]]></entry>
-	<entry id="str_bark_jiangshi_1"><![CDATA[Embrace the dark. Let us cavort with the shadows of the night.]]></entry>
-        <entry id="str_bark_jiangshi_1"><![CDATA[Come to me, my siblings. Hearken to my call.]]></entry>
-                
-	<entry id="str_bark_jiangshi_3"><![CDATA[...Which is poured out for many for the forgiveness of sins...]]></entry>
-	<entry id="str_bark_jiangshi_3"><![CDATA[Do not be afraid, it's just a sip...]]></entry>
-	<entry id="str_bark_jiangshi_3"><![CDATA[I will be your chalice.]]></entry>	
-	<entry id="str_bark_jiangshi_3"><![CDATA[Your god is the one who gives you to drink!]]></entry>
-        <entry id="str_bark_jiangshi_3"><![CDATA[You haven't tasted anything like this. I guarantee it...]]></entry>				
-
-		<entry id="str_bark_jiangshi_2"><![CDATA[MOVE THAT FILTH AWAY FROM ME!!]]></entry>
-		<entry id="str_bark_jiangshi_2"><![CDATA[I thought we agreed to put away those things!!]]></entry>
-		<entry id="str_bark_jiangshi_2"><![CDATA[Don't put your faith in such trinkets of deceit!]]></entry>
-        <entry id="str_bark_jiangshi_2"><![CDATA[HSSSSS! STAY BACK!]]></entry>	
-        <entry id="str_bark_jiangshi_2"><![CDATA[Behold the fragility of your idols!!]]></entry>	
-        <entry id="str_bark_jiangshi_2"><![CDATA[HAHAHAHA...You have to have faith for this to work on me!]]></entry>	
-	
-	<entry id="jiangshi+str_override_invalid_rejection"><![CDATA[Poor idiot. How easy it is to deceive them with promises of salvation.]]></entry>
-	<entry id="jiangshi+str_override_invalid_rejection"><![CDATA[I can't stand the psalms of that ridiculous puppet.]]></entry>
-	<entry id="jiangshi+str_override_invalid_rejection"><![CDATA[Just being near this place makes me nauseous...]]></entry>
 
 <!--Blacksmith-->	
 	<entry id="jiangshi_weapon_0"><![CDATA[High Manner]]></entry>
@@ -147,23 +68,6 @@
 	
  <!--Events -->	
 	
-    <entry id="town_event_title_bonus_recruit_jiangshi"><![CDATA[Pestilance]]></entry>
-    <entry id="town_event_description_bonus_recruit_jiangshi"><![CDATA[A plague of strange rats has come from afar. Villagers have fallen ill and strange marks on their necks...]]></entry>
-   
-   <entry id="town_event_title_idle_resolve_level_jiangshi"><![CDATA[Waiting for the light]]></entry>
-    <entry id="town_event_description_idle_resolve_level_jiangshi"><![CDATA[The sun falls again and the deaths continue to mount, people are praying and awaiting for the return of the light.]]></entry>
-	
-	<entry id="town_event_title_first_jiangshi"><![CDATA[Ship of the dead]]></entry>
-    <entry id="town_event_description_first_jiangshi"><![CDATA[A lost ship was found on the shores, its crew dead and only boxes of earth found, residents claim rats were found leaving the wreak.]]></entry>
-	
-	<entry id="town_event_title_lock_brothel_jiangshi"><![CDATA[A Macabre Incident]]></entry>
-    <entry id="town_event_description_lock_brothel_jiangshi"><![CDATA[A well-known prostitute has been found lifeless. Her dry and withered body rests in the shadows of the alley. Whoever the murderer is, they cannot be human...]]></entry>
-
-	<!--Supply -->	
-	<entry id="str_inventory_description_estatevv_chalice"><![CDATA[The jiangshi's essence. Use to cure 
-	{colour_start|debuff}Mortality Debuffs{colour_end}.
-	Buff {colour_start|mark}Death Blow{colour_end}.]]></entry>	
-	<entry id="str_inventory_title_estatevv_chalice"><![CDATA[Eternal Goblet]]></entry>
 
 
 
@@ -475,16 +379,18 @@
 	     <entry id="jiangshi+str_block_buff_irrational">						<![CDATA[(awkward silence)]]></entry>
 	     <entry id="jiangshi+str_block_buff_irrational">						<![CDATA[Exactly... what are you trying to do?.]]></entry>
 	
-        <entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_lifesteal1"><![CDATA[{colour_start|healhp}Lifesteal{colour_end}
-	{colour_start|debuff}Steal {colour_end}2 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_lifesteal2"><![CDATA[{colour_start|healhp}Lifesteal{colour_end}
-	{colour_start|debuff}Steal {colour_end}2 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_lifesteal3"><![CDATA[{colour_start|healhp}Lifesteal{colour_end}
-	{colour_start|debuff}Steal {colour_end}3 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_lifesteal4"><![CDATA[{colour_start|healhp}Lifesteal{colour_end}
-	{colour_start|debuff}Steal {colour_end}3 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_lifesteal5"><![CDATA[{colour_start|healhp}Lifesteal{colour_end}
-	{colour_start|debuff}Steal {colour_end}4 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
+        <entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_HPSteal_1"><![CDATA[{colour_start|debuff}Steal {colour_end}2 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_HPSteal_2"><![CDATA[{colour_start|debuff}Steal {colour_end}2 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_HPSteal_3"><![CDATA[{colour_start|debuff}Steal {colour_end}3 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_HPSteal_4"><![CDATA[{colour_start|debuff}Steal {colour_end}3 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_tooltip_HPSteal_5"><![CDATA[{colour_start|debuff}Steal {colour_end}4 pts max HP {colour_start|skill_unselectable}(3 Battles){colour_end}]]></entry>
+
+<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_life_steal_tt1"><![CDATA[40%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_life_steal_tt2"><![CDATA[45%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_life_steal_tt3"><![CDATA[50%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_life_steal_tt4"><![CDATA[55%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_life_steal_tt5"><![CDATA[60%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
+
 		 
 	
   </language>

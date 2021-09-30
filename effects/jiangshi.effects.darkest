@@ -1,6 +1,18 @@
-// Nosferatu
 //Code by [Your Name Here] & A homeless man
 //--------------------------------------------------
+
+////Tooltips
+effect: .name "Jiangshi Lifesteal TT 1" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_life_steal_tt1"  .on_hit true .on_miss false .apply_once true
+effect: .name "Jiangshi Lifesteal TT 2" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_life_steal_tt2"  .on_hit true .on_miss false .apply_once true
+effect: .name "Jiangshi Lifesteal TT 3" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_life_steal_tt3"  .on_hit true .on_miss false .apply_once true
+effect: .name "Jiangshi Lifesteal TT 4" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_life_steal_tt4"  .on_hit true .on_miss false .apply_once true
+effect: .name "Jiangshi Lifesteal TT 5" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_life_steal_tt5"  .on_hit true .on_miss false .apply_once true
+
+effect: .name "Jiangshi Hpsteal TT 1" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_tooltip_HPSteal_1"  .on_hit true .on_miss false .apply_once true
+effect: .name "Jiangshi Hpsteal TT 2" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_tooltip_HPSteal_2"  .on_hit true .on_miss false .apply_once true
+effect: .name "Jiangshi Hpsteal TT 3" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_tooltip_HPSteal_3"  .on_hit true .on_miss false .apply_once true
+effect: .name "Jiangshi Hpsteal TT 4" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_tooltip_HPSteal_4"  .on_hit true .on_miss false .apply_once true
+effect: .name "Jiangshi Hpsteal TT 5" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_tooltip_HPSteal_5"  .on_hit true .on_miss false .apply_once true
 
 ////Common Calls
 //CC removal
@@ -67,17 +79,17 @@ effect: .name "jiangshi Attack Chi Buff 3" .target "performer" .chance 100% .com
 effect: .name "jiangshi Attack Chi Buff 4" .target "performer" .chance 100% .combat_stat_buff 1 .attack_rating_add 12% .on_hit true .on_miss false .queue false .apply_once true
 effect: .name "jiangshi Attack Chi Buff 5" .target "performer" .chance 100% .combat_stat_buff 1 .attack_rating_add 14% .on_hit true .on_miss false .queue false .apply_once true
 
-effect: .name "Jiangshi Hp Chi Steal 1" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_1B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description true .queue true
-effect: .name "Jiangshi Hp Chi Steal 2" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_2B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description true .queue true
-effect: .name "Jiangshi Hp Chi Steal 3" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_3B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description true .queue true
-effect: .name "Jiangshi Hp Chi Steal 4" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_4B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description true .queue true
-effect: .name "Jiangshi Hp Chi Steal 5" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_5B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description true .queue true
+effect: .name "Jiangshi Hp Chi Steal 1" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_1B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description false .queue true
+effect: .name "Jiangshi Hp Chi Steal 2" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_2B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description false .queue true
+effect: .name "Jiangshi Hp Chi Steal 3" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_3B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description false .queue true
+effect: .name "Jiangshi Hp Chi Steal 4" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_4B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description false .queue true
+effect: .name "Jiangshi Hp Chi Steal 5" .target "performer"  .chance 100%  .swap_source_and_target false .buff_ids Jiangshi_Drain_MaxHP_5B .duration -1 .buff_duration_type combat_end	.duration -1  .on_hit true .on_miss false .apply_once true .has_description false .queue true
 
-effect: .name "Jiangshi Hp Chi Steal Debuff 1" .target "target"  .chance 1000%  .buff_ids Jiangshi_Drain_MaxHP_1D .on_hit true .on_miss false .apply_once true .has_description true .queue true .buff_duration_type combat_end	.duration 1
-effect: .name "Jiangshi Hp Chi Steal Debuff 2" .target "target"  .chance 1100%  .buff_ids Jiangshi_Drain_MaxHP_2D .on_hit true .on_miss false .apply_once true .has_description true .queue true .buff_duration_type combat_end	.duration 1
-effect: .name "Jiangshi Hp Chi Steal Debuff 3" .target "target"  .chance 1200%  .buff_ids Jiangshi_Drain_MaxHP_3D .on_hit true .on_miss false .apply_once true .has_description true .queue true .buff_duration_type combat_end	.duration 1
-effect: .name "Jiangshi Hp Chi Steal Debuff 4" .target "target"  .chance 1300%  .buff_ids Jiangshi_Drain_MaxHP_4D .on_hit true .on_miss false .apply_once true .has_description true .queue true .buff_duration_type combat_end	.duration 1
-effect: .name "Jiangshi Hp Chi Steal Debuff 5" .target "target"  .chance 1400%  .buff_ids Jiangshi_Drain_MaxHP_5D .on_hit true .on_miss false .apply_once true .has_description true .queue true .buff_duration_type combat_end	.duration 1
+effect: .name "Jiangshi Hp Chi Steal Debuff 1" .target "target"  .chance 1000%  .buff_ids Jiangshi_Drain_MaxHP_1D .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type combat_end	.duration -1
+effect: .name "Jiangshi Hp Chi Steal Debuff 2" .target "target"  .chance 1100%  .buff_ids Jiangshi_Drain_MaxHP_2D .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type combat_end	.duration -1
+effect: .name "Jiangshi Hp Chi Steal Debuff 3" .target "target"  .chance 1200%  .buff_ids Jiangshi_Drain_MaxHP_3D .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type combat_end	.duration -1
+effect: .name "Jiangshi Hp Chi Steal Debuff 4" .target "target"  .chance 1300%  .buff_ids Jiangshi_Drain_MaxHP_4D .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type combat_end	.duration -1
+effect: .name "Jiangshi Hp Chi Steal Debuff 5" .target "target"  .chance 1400%  .buff_ids Jiangshi_Drain_MaxHP_5D .on_hit true .on_miss false .apply_once true .has_description false .queue true .buff_duration_type combat_end	.duration -1
 
 effect: .name "Jiangshi Lifedrain Scaling 1" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "jiangshi_lifesteal_Scaling_1" .on_hit true .on_miss false .has_description false
 effect: .name "jiangshi Lifedrain Scaling 2" 	.target "performer"  .skill_instant true .chance 100% .buff_ids "jiangshi_lifesteal_Scaling_2" .on_hit true .on_miss false .has_description false

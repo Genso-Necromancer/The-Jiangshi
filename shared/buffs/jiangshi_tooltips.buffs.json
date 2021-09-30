@@ -2,59 +2,12 @@
    "buffs":
    [
    {
-         "id" : "nosferatu_tooltip_lifesteal_1",
+         "id" : "jiangshi_tooltip_HPSteal_1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "nosferatu_tooltip_lifesteal1",
-         "amount" : 1.0,
-		 "duration_type" : "combat_end",
-		 "duration" : 1,
+         "stat_sub_type" : "jiangshi_tooltip_HPSteal_1",
+         "amount" : -1,
          "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 50,
-            "string" : ""
-         }
-      },	
-	  {
-         "id" : "nosferatu_tooltip_lifesteal_2",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "nosferatu_tooltip_lifesteal2",
-         "amount" : 1.0,
-		 "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 50,
-            "string" : ""
-         }
-      },	
-	  {
-         "id" : "nosferatu_tooltip_lifesteal_3",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "nosferatu_tooltip_lifesteal3",
-         "amount" : 1.0,
-		 "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 50,
-            "string" : ""
-         }
-      },	
-	  {
-         "id" : "nosferatu_tooltip_lifesteal_4",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "nosferatu_tooltip_lifesteal4",
-         "amount" : 1.0,
-		 "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
+		 "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -62,36 +15,121 @@
          }
       },	
 	  {
-         "id" : "nosferatu_tooltip_lifesteal_5",
+         "id" : "jiangshi_tooltip_HPSteal_2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "nosferatu_tooltip_lifesteal5",
-         "amount" : 1.0,
-		 "duration_type" : "combat_end",
-		 "duration" : 1,
+         "stat_sub_type" : "jiangshi_tooltip_HPSteal_2",
+         "amount" : -1,
          "remove_if_not_active" : true,
-         "rule_type" : "always",
+		 "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
          }
-      }
-	  
-	  
-	  	  	  
-	  	  
-	  
-	  
-	
-   
-    
-	  
-	  
-	
-	    	  
-	  
-  
-	
-	 
+      },	
+	  {
+         "id" : "jiangshi_tooltip_HPSteal_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jiangshi_tooltip_HPSteal_3",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },	
+	  {
+         "id" : "jiangshi_tooltip_HPSteal_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jiangshi_tooltip_HPSteal_4",
+        "amount" : -1,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },	
+	  {
+         "id" : "jiangshi_tooltip_HPSteal_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jiangshi_tooltip_HPSteal_5",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "jiangshi_life_steal_tt1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jiangshi_life_steal_tt1",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "jiangshi_life_steal_tt2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jiangshi_life_steal_tt2",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "jiangshi_life_steal_tt3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jiangshi_life_steal_tt3",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "jiangshi_life_steal_tt4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jiangshi_life_steal_tt4",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "jiangshi_life_steal_tt5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "jiangshi_life_steal_tt5",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  }
    ]
 }
