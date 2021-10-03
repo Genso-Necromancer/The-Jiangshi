@@ -29,7 +29,7 @@
 			"id": "jiang_pipa",
 			"buffs": [
 
-				"MAXHP20"
+				"jiangshi_pipa_night_dmgl", "jiangshi_pipa_night_dmgh", "jiangshi_pipa_night_prot", "jiangshi_stress_pipa"
 			],
 			"hero_class_requirements": [
 				"jiangshi"
@@ -42,7 +42,7 @@
 		{
 			"id": "jiang_poster",
 			"buffs": [
-				"MAXHP20"
+				"Jiangshi_CRIT_10", "jiangshi_speed_debuff", "Jiangshi_VIRTUE_Debuff"
 			],
 			"hero_class_requirements": [
 				"jiangshi"
@@ -55,7 +55,7 @@
 		{
 			"id": "jiang_blood",
 			"buffs": [
-				"MAXHP20"
+				"jiangshi_ACC_Buff_Melee", "jiangshi_CRIT_MELEE", "jiangshi_DMGL_RANGED", "jiangshi_DMGH_RANGED"
 			],
 			"hero_class_requirements": [
 				"jiangshi"

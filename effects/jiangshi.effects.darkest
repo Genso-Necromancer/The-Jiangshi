@@ -14,6 +14,8 @@ effect: .name "Jiangshi Hpsteal TT 3" 		.target "performer" .skill_instant true 
 effect: .name "Jiangshi Hpsteal TT 4" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_tooltip_HPSteal_4"  .on_hit true .on_miss false .apply_once true
 effect: .name "Jiangshi Hpsteal TT 5" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_tooltip_HPSteal_5"  .on_hit true .on_miss false .apply_once true
 
+effect: .name "Jiangshi CC Debuff TT" 		.target "performer" .skill_instant true .chance 100% .buff_ids "jiangshi_CC_Debuff_TT"  .on_hit true .on_miss false .apply_once true
+
 ////Common Calls
 //CC removal
 effect: .name "jiangshi_cure" .target "performer" .chance 100% .remove_vampire 1  .on_hit true .on_miss true .queue false .has_description false
@@ -157,4 +159,8 @@ effect: .name "jiangshi SPOOKED 3"  .target "performer" .chance 100% .riposte 1 
 effect: .name "jiangshi SPOOKED 4"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 3 .damage_low_multiply -0.80 .damage_high_multiply -0.80 .attack_rating_add 0.20 .riposte_effect "Jiangshi Mark" "Jiangshi Rip Dodge 3"
 effect: .name "jiangshi SPOOKED 5"  .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .on_hit true .on_miss true .duration 3 .damage_low_multiply -0.80 .damage_high_multiply -0.80 .attack_rating_add 0.25 .riposte_effect "Jiangshi Mark" "Jiangshi Rip Dodge 5"
 
+//Trinket Effects
+effect: .name "Jiangshi CC Bleed" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true .queue true
+effect: .name "Jiangshi CC Debuff" .target "target" .chance 300% .combat_stat_buff 1 .speed_rating_add -2 .protection_rating_add -10% .damage_low_multiply -10%	.damage_high_multiply -10%	.on_hit true .on_miss false .has_description false
+effect: .name "Jiangshi Heal Self" .target "performer" .curio_result_type "positive" .chance 100% .heal 3	.on_hit true .on_miss false .queue true .source_heal_type hero_skill
 //-----------------------------------------------------------------------------------------------

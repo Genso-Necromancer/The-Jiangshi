@@ -1,0 +1,6 @@
+effect: .name "jiangshi_talisman_life" .target "performer" .item 1 .chance 500% .buff_ids "Jiangshi_taliman_MAXHP"
+effect: .name "jiangshi_talisman_debuff_chance" .target "performer" .item 1 .chance 500% .buff_ids "jiangshi_talisman_debuff_chance"
+effect: .name "jiangshi_talisman_heal_received" .target "performer" .item 1 .chance 500%  .duration 3 .buff_ids "jiangshi_talisman_heal_buff"
+effect: .name "jiangshi_talisman_dmg" .target "performer" .item 1 .chance 500%  .duration 3 .buff_ids "jiangshi_talisman_dmgl" "jiangshi_talisman_dmgh"
+effect: .name "jiangshi_talisman_cure" .target "performer" .item 1 .chance 500% .chance 500% .healstress 20 .cure_bleed 1 .cure_poison 1 .cure_disease 1 .clear_debuff 1 .clearDotStress 1
+effect: .name "jiangshi_talisman_death" .target "performer" .item 1 .chance 500% .chance 5% .steal_buff_source_type bsrc_deathsdoor_recovery .on_hit true .on_miss false .has_description false

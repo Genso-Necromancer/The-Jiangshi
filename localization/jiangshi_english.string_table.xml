@@ -391,6 +391,7 @@
 <entry id="buff_stat_tooltip_upgrade_discount_jiangshi_life_steal_tt4"><![CDATA[55%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
 <entry id="buff_stat_tooltip_upgrade_discount_jiangshi_life_steal_tt5"><![CDATA[60%% {colour_start|healhp}Lifesteal{colour_end}]]></entry>
 
+<entry id="buff_stat_tooltip_upgrade_discount_jiangshi_CC_Debuff_TT"><![CDATA[{colour_start|debuff}Debuff{colour_end}: -2 SPD, -10%% Prot, -10%% DMG]]></entry>
 		 
 	
   </language>

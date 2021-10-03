@@ -5,7 +5,7 @@
          "id" : "jiang_coffin",
          "buffs" : 
          [
-			"MAXHP20"
+			"Jiangshi_COM_MAXHP", "jiangshi_stress_COM"
          ],
          "hero_class_requirements":
          [
@@ -15,9 +15,9 @@
          "shard" : 98,
          "limit" : 1,
          "origin_dungeon" : "",
-		"friendly_skill_additional_effects":
+		"attack_skill_additional_effects":
         [
-		  "MAXHP20"
+		  "Jiangshi Heal Self"
 		  
         ]
 	}

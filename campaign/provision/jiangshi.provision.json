@@ -1,0 +1,13 @@
+{    
+    "raid_starting_hero_class_item_lists":
+    [
+        {
+            "hero_class": "jiangshi",
+            "item_lists":
+            [
+				{ "type": "supply", "id": "jiangshi_talisman_life" , "amount":  1 }
+	
+            ]
+        }
+    ]     
+}

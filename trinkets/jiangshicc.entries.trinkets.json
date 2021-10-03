@@ -5,7 +5,7 @@
          "id" : "jiang_robes",
          "buffs" : 
          [
-			"MAXHP20"
+			"jiangshi_cc_heal_buff", "jiangshi_debuff_chance"
          ],
          "hero_class_requirements":
          [
@@ -15,13 +15,15 @@
          "rarity" : "crimson_court",
          "price" : 50000,
          "limit" : 1,
-         "origin_dungeon" : "courtyard"
-      },
-      {
+         "origin_dungeon" : "courtyard",
+			"attack_skill_additional_effects": [
+				"Jiangshi CC Bleed"
+			]
+		}, {
          "id" : "jiang_poison",
          "buffs" : 
          [
-          "MAXHP20"
+          "Jiangshi_cc_riposte_dmgl", "Jiangshi_cc_riposte_dmgh", "jiangshi_speed_cc_debuff"
 		  
 		  
          ],
@@ -33,7 +35,10 @@
          "rarity" : "crimson_court",
          "price" : 50000,
          "limit" : 1,
-         "origin_dungeon" : "courtyard"
+         "origin_dungeon" : "courtyard",
+			"kill_all_monsters_additional_effects": [
+				"Jiangshi CC Debuff TT", "Jiangshi CC Debuff"
+			]
       }
    ]
 }
