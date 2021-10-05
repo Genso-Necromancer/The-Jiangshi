@@ -153,7 +153,7 @@
 		},
 		{
 			"id": "jiangshi_lifesteal_Scaling_1",
-			"stat_type": "hp_heal_percent",
+			"stat_type": "hp_heal_received_percent",
 			"stat_sub_type": "damage_heal",
 			"amount": -0.60,
 			"remove_if_not_active": false,
@@ -167,7 +167,7 @@
 		},
 		{
 			"id": "jiangshi_lifesteal_Scaling_2",
-			"stat_type": "hp_heal_percent",
+			"stat_type": "hp_heal_received_percent",
 			"stat_sub_type": "damage_heal",
 			"amount": -0.55,
 			"remove_if_not_active": false,
@@ -181,7 +181,7 @@
 		},
 		{
 			"id": "jiangshi_lifesteal_Scaling_3",
-			"stat_type": "hp_heal_percent",
+			"stat_type": "hp_heal_received_percent",
 			"stat_sub_type": "damage_heal",
 			"amount": -0.50,
 			"remove_if_not_active": false,
@@ -195,7 +195,7 @@
 		},
 		{
 			"id": "jiangshi_lifesteal_Scaling_4",
-			"stat_type": "hp_heal_percent",
+			"stat_type": "hp_heal_received_percent",
 			"stat_sub_type": "damage_heal",
 			"amount": -0.45,
 			"remove_if_not_active": false,

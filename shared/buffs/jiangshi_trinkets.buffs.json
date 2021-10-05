@@ -198,7 +198,7 @@
       },
       {
          "id" : "jiangshi_cc_heal_buff",
-         "stat_type" : "hp_heal_percent",
+         "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.30,
          "remove_if_not_active" : false,
