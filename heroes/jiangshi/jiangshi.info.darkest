@@ -67,11 +67,11 @@ combat_skill: .id "ji_fearful_song" .level 3 .type "ranged" .atk 105% .dmg -50% 
 combat_skill: .id "ji_fearful_song" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 13% .move 0 0 .is_crit_valid true .launch 21 .target 123 .effect "jiangshi stun debuff" "jiangshi_cure" "jiangshi Stun 5" "jiangshi Self Mark" .valid_modes jiangshi_mode
 
 // Frightful Leap
-combat_skill: .id "ji_frightful_leap" .level 0 .type "melee" .atk 85%  .dmg -66% .crit -4% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 1" "jiangshi Shuffle DoT 1" "jiangshi_cure" .valid_modes jiangshi_mode
-combat_skill: .id "ji_frightful_leap" .level 1 .type "melee" .atk 90%  .dmg -66% .crit -3% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 2" "jiangshi Shuffle DoT 2" "jiangshi_cure" .valid_modes jiangshi_mode
-combat_skill: .id "ji_frightful_leap" .level 2 .type "melee" .atk 95%  .dmg -66% .crit -2% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 3" "jiangshi Shuffle DoT 3" "jiangshi_cure" .valid_modes jiangshi_mode
-combat_skill: .id "ji_frightful_leap" .level 3 .type "melee" .atk 100% .dmg -66% .crit -1% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 4" "jiangshi Shuffle DoT 4" "jiangshi_cure" .valid_modes jiangshi_mode
-combat_skill: .id "ji_frightful_leap" .level 4 .type "melee" .atk 105% .dmg -66% .crit  0% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 5" "jiangshi Shuffle DoT 5" "jiangshi_cure" .valid_modes jiangshi_mode
+combat_skill: .id "ji_frightful_leap" .level 0 .type "ranged" .atk 85%  .dmg -66% .crit -4% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 1" "jiangshi Shuffle DoT 1" "jiangshi_cure" .valid_modes jiangshi_mode
+combat_skill: .id "ji_frightful_leap" .level 1 .type "ranged" .atk 90%  .dmg -66% .crit -3% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 2" "jiangshi Shuffle DoT 2" "jiangshi_cure" .valid_modes jiangshi_mode
+combat_skill: .id "ji_frightful_leap" .level 2 .type "ranged" .atk 95%  .dmg -66% .crit -2% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 3" "jiangshi Shuffle DoT 3" "jiangshi_cure" .valid_modes jiangshi_mode
+combat_skill: .id "ji_frightful_leap" .level 3 .type "ranged" .atk 100% .dmg -66% .crit -1% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 4" "jiangshi Shuffle DoT 4" "jiangshi_cure" .valid_modes jiangshi_mode
+combat_skill: .id "ji_frightful_leap" .level 4 .type "ranged" .atk 105% .dmg -66% .crit  0% .move 0 2 .is_crit_valid False .launch 43 .target ~123 .effect "jiangshi Fright Debuff 5" "jiangshi Shuffle DoT 5" "jiangshi_cure" .valid_modes jiangshi_mode
 
 // Horrid Reminder
 combat_skill: .id "ji_horrid_reminder" .level 0 .move 0 0 .launch 12 .target .effect "jiangshi SPOOKED 1" "jiangshi_cure" .is_crit_valid False .valid_modes jiangshi_mode

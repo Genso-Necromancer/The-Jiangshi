@@ -120,11 +120,11 @@ effect: .name "jiangshi Fright Debuff 3" .target "target" .chance 100% .combat_s
 effect: .name "jiangshi Fright Debuff 4" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -8%  .crit_chance_add -5% .on_hit true .on_miss false .queue false .apply_once false
 effect: .name "jiangshi Fright Debuff 5" .target "target" .chance 100% .combat_stat_buff 1 .attack_rating_add -10% .crit_chance_add -6% .on_hit true .on_miss false .queue false .apply_once false
 
-effect: .name "jiangshi Shuffle DoT 1" .target "target" .chance 100%  .dotShuffle 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "jiangshi Shuffle DoT 2" .target "target" .chance 120%  .dotShuffle 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "jiangshi Shuffle DoT 3" .target "target" .chance 130%  .dotShuffle 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "jiangshi Shuffle DoT 4" .target "target" .chance 140%  .dotShuffle 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "jiangshi Shuffle DoT 5" .target "target" .chance 150%  .dotShuffle 1 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "jiangshi Shuffle DoT 1" .target "target" .chance 100%  .dotShuffle 1 .duration 1	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "jiangshi Shuffle DoT 2" .target "target" .chance 120%  .dotShuffle 1 .duration 1	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "jiangshi Shuffle DoT 3" .target "target" .chance 130%  .dotShuffle 1 .duration 1	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "jiangshi Shuffle DoT 4" .target "target" .chance 140%  .dotShuffle 1 .duration 1	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "jiangshi Shuffle DoT 5" .target "target" .chance 150%  .dotShuffle 1 .duration 1	.on_hit true .on_miss false .can_apply_on_death true
 
 effect: .name "jiangshi Stress 1" .target "target" .curio_result_type "negative" .chance 100% .stress 2	.on_hit true .on_miss false	.queue true
 effect: .name "jiangshi Stress 2" .target "target" .curio_result_type "negative" .chance 100% .stress 3	.on_hit true .on_miss false	.queue true
