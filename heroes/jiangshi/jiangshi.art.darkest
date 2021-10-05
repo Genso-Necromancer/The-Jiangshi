@@ -12,8 +12,8 @@ armour: .name "jiangshi_armour_2" .icon "eqp_armour_2.png"
 armour: .name "jiangshi_armour_3" .icon "eqp_armour_3.png"
 armour: .name "jiangshi_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "ji_claws_swipe" .icon "one" .anim "attack_claw_swipe" .fx "attack_claw_swipe_fx" .targchestfx "attack_claw_swipe_target_fx
-combat_skill: .id "ji_destruction" .icon "two" .anim "attack_haunt" .fx "attack_haunt_fx" .targchestfx "attack_haunt_target_fx
+combat_skill: .id "ji_claws_swipe" .icon "one" .anim "attack_claw_swipe" .fx "attack_claw_swipe_fx" .targchestfx "attack_claw_swipe_target_fx"
+combat_skill: .id "ji_destruction" .icon "two" .anim "attack_haunt" .fx "attack_haunt_fx" .targchestfx "attack_haunt_target_fx"
 combat_skill: .id "ji_detect_breath" .icon "three" .anim "attack_detect_breath" .fx "attack_detect_breath_fx"
 combat_skill: .id "ji_drain_chi" .icon "four" .anim "attack_drain_chi" .fx "attack_drain_chi_fx" .targchestfx "attack_drain_chi_target_fx"
 combat_skill: .id "ji_fearful_song" .icon "five" .anim "attack_song" .fx "attack_song_fx"
