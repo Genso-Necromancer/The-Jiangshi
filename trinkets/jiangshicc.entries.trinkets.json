@@ -16,7 +16,7 @@
          "price" : 50000,
          "limit" : 1,
          "origin_dungeon" : "courtyard",
-			"attack_skill_additional_effects": [
+			"melee_attack_skill_additional_effects": [
 				"Jiangshi CC Bleed"
 			]
 		}, {

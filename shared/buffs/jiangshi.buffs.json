@@ -263,6 +263,19 @@
 			}
 		},
 		{
+			"id": "jiangshi_healthy_PROT",
+			"stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": false,
+			"rule_type": "hpabove",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0.90,
+				"string": ""
+			}
+		},
+		{
 			"id": "jiangshi_BLEED_DEBUFF_1",
 			"stat_type": "resistance",
 			"stat_sub_type": "bleed",

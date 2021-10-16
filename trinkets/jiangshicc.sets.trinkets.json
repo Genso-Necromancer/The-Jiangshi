@@ -5,7 +5,7 @@
          "id" : "cc_jiangshi",
          "buffs" : 
          [
-            "MAXHP20"
+            "jiangshi_healthy_PROT"
          ]
       }
    ]
