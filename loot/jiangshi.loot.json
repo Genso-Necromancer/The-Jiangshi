@@ -9,7 +9,14 @@
          "entries" :
          [
 			{ "type" : "nothing", "chances" : 0, "data" : { }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "jiang_coins", "jiang_robes", "jiang_bell", "jiang_pipa", "jiang_poison", "jiang_blood", "jiang_poster", "amount" : 1 }}
+            { "type" : "item", "chances" : 1000, "data" : { "type" : "trinket", "id" : "jiang_coins", "amount" : 1 }},
+            { "type" : "item", "chances" : 1000, "data" : { "type" : "trinket", "id" : "jiang_bell", "amount" : 1 }},
+	    { "type" : "item", "chances" : 1000, "data" : { "type" : "trinket", "id" : "jiang_pipa", "amount" : 1 }},
+            { "type" : "item", "chances" : 1000, "data" : { "type" : "trinket", "id" : "jiang_poison", "amount" : 1 }},
+	    { "type" : "item", "chances" : 1000, "data" : { "type" : "trinket", "id" : "jiang_blood", "amount" : 1 }},
+            { "type" : "item", "chances" : 1000, "data" : { "type" : "trinket", "id" : "jiang_nukekubi", "amount" : 1 }},
+	    { "type" : "item", "chances" : 1000, "data" : { "type" : "trinket", "id" : "jiang_poster", "amount" : 1 }},
+            { "type" : "item", "chances" : 1000, "data" : { "type" : "trinket", "id" : "jiang_robes", "amount" : 1 }}
          ]
       }
    ]
