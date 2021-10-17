@@ -5,11 +5,11 @@ resistances: .stun 20% .poison 20% .bleed 20% .disease 50% .move 20% .debuff 40%
 
 crit: .effects Shadowcritbuff
 
-weapon: .name "jiangshi_weapon_0" .atk 0% .dmg 4 10 .crit 1% .spd 5
-weapon: .name "jiangshi_weapon_1" .atk 0% .dmg 5 12 .crit 2% .spd 5 .upgradeRequirementCode 0
-weapon: .name "jiangshi_weapon_2" .atk 0% .dmg 6 13 .crit 3% .spd 6 .upgradeRequirementCode 1
-weapon: .name "jiangshi_weapon_3" .atk 0% .dmg 7 15 .crit 4% .spd 6 .upgradeRequirementCode 2
-weapon: .name "jiangshi_weapon_4" .atk 0% .dmg 8 16 .crit 5% .spd 7 .upgradeRequirementCode 3
+weapon: .name "jiangshi_weapon_0" .atk 0% .dmg 6 12 .crit 1% .spd 5
+weapon: .name "jiangshi_weapon_1" .atk 0% .dmg 7 14 .crit 2% .spd 5 .upgradeRequirementCode 0
+weapon: .name "jiangshi_weapon_2" .atk 0% .dmg 8 16 .crit 3% .spd 6 .upgradeRequirementCode 1
+weapon: .name "jiangshi_weapon_3" .atk 0% .dmg 9 17 .crit 4% .spd 6 .upgradeRequirementCode 2
+weapon: .name "jiangshi_weapon_4" .atk 0% .dmg 10 19 .crit 5% .spd 7 .upgradeRequirementCode 3
 armour: .name "jiangshi_armour_0" .def 0% .prot .04 .hp 26 .spd 0
 armour: .name "jiangshi_armour_1" .def 0% .prot .06 .hp 31 .spd 0 .upgradeRequirementCode 0
 armour: .name "jiangshi_armour_2" .def 0% .prot .08 .hp 36 .spd 0 .upgradeRequirementCode 1

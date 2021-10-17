@@ -28,13 +28,13 @@
 		<entry id="upgrade_tree_name_jiangshi.ji_horrid_reminder"><![CDATA[Horrid Reminder]]></entry>
 	
  <!--Party Limit -->	
-		<entry id="str_incompatible_party_member_jiangshi_religion"><![CDATA[The dead should not leave their graves...]]></entry>
+	<entry id="str_incompatible_party_member_jiangshi_religion"><![CDATA[The dead should not leave their graves...]]></entry>
     	<entry id="str_incompatible_party_member_jiangshi_religion"><![CDATA[I refuse to travel with that wicked thing!]]></entry>
     	<entry id="str_incompatible_party_member_jiangshi_religion"><![CDATA[I will not serve with this... creature.]]></entry>
-		<entry id="str_incompatible_party_jiangshi_religion"><![CDATA[Bah, in the end only the strong will be saved.]]></entry>
+	<entry id="str_incompatible_party_jiangshi_religion"><![CDATA[Bah, in the end only the strong will be saved.]]></entry>
     	<entry id="str_incompatible_party_jiangshi_religion"><![CDATA[Those crosses hurt my head.]]></entry>
-		<entry id="str_incompatible_party_jiangshi_religion"><![CDATA[Rid the priest and it will become like home.]]></entry>
-		<entry id="str_incompatible_party_member_jiangshi_limit"><![CDATA[And share all those innocent lives with you? Never.]]></entry>
+	<entry id="str_incompatible_party_jiangshi_religion"><![CDATA[Rid the priest and it will become like home.]]></entry>
+	<entry id="str_incompatible_party_member_jiangshi_limit"><![CDATA[And share all those innocent lives with you? Never.]]></entry>
     	<entry id="str_incompatible_party_member_jiangshi_limit"><![CDATA[This is MY cattle. Find your own herd!]]></entry>
     	<entry id="str_incompatible_party_member_jiangshi_limit"><![CDATA[I am the true master!]]></entry>
     	<entry id="str_incompatible_party_member_jiangshi_limit"><![CDATA[I don't intend on treating you as an equal...]]></entry>
@@ -47,24 +47,24 @@
 
 
 <!--Blacksmith-->	
-	<entry id="jiangshi_weapon_0"><![CDATA[High Manner]]></entry>
-	<entry id="jiangshi_weapon_1"><![CDATA[Essence of Vileness]]></entry>
-    	<entry id="jiangshi_weapon_2"><![CDATA[Necrotic Touch of Destruction]]></entry>
-    	<entry id="jiangshi_weapon_3"><![CDATA[Twisted Necrotic Touch]]></entry>
-    	<entry id="jiangshi_weapon_4"><![CDATA["Wings of Malice"]]></entry>
-    	<entry id="upgrade_tree_name_jiangshi.weapon"><![CDATA[Predator's Wings]]></entry>
-    	<entry id="jiangshi_armour_0"><![CDATA[Fine Doublet]]></entry>
-    	<entry id="jiangshi_armour_1"><![CDATA[Governor's Jerkin]]></entry> 
-    	<entry id="jiangshi_armour_2"><![CDATA[Ornate Costume]]></entry>
-    	<entry id="jiangshi_armour_3"><![CDATA[Heretical Silk]]></entry>
-    	<entry id="jiangshi_armour_4"><![CDATA["Tunic of the Moroii"]]></entry>
-    	<entry id="upgrade_tree_name_jiangshi.armour"><![CDATA[Noble Clothes]]></entry>
+	<entry id="jiangshi_weapon_0"><![CDATA[Decayed Hand]]></entry>
+	<entry id="jiangshi_weapon_1"><![CDATA[Regenerated Hand]]></entry>
+    	<entry id="jiangshi_weapon_2"><![CDATA[Monstrous Hand]]></entry>
+    	<entry id="jiangshi_weapon_3"><![CDATA[Sharpend Claws]]></entry>
+    	<entry id="jiangshi_weapon_4"><![CDATA["Bloodletter"]]></entry>
+    	<entry id="upgrade_tree_name_jiangshi.weapon"><![CDATA[Jiangshi's Claws]]></entry>
+    	<entry id="jiangshi_armour_0"><![CDATA[Ruined Talisman]]></entry>
+    	<entry id="jiangshi_armour_1"><![CDATA[Sub-par Talisman]]></entry> 
+    	<entry id="jiangshi_armour_2"><![CDATA[Mended Talisman]]></entry>
+    	<entry id="jiangshi_armour_3"><![CDATA[Unfinished Talisman]]></entry>
+    	<entry id="jiangshi_armour_4"><![CDATA["Emperor Rescript: Comply & Live"]]></entry>
+    	<entry id="upgrade_tree_name_jiangshi.armour"><![CDATA[Jiangshi Talisman]]></entry>
 	
 	
 	
-	<entry id="action_verbose_body_guild_jiangshi"><![CDATA[ The jiangshi possesses supernatural abilities that allow him to bring life to shadows themselves. He also can use his covenant with the creatures of the night to call swarms of bats which weaken the enemy to attract them with his malign will. In his Strigoi form, the jiangshi is a lethal predator, hunting his prey  to feed on their very souls.]]></entry>
-    <entry id="action_verbose_body_blacksmith_jiangshi"><![CDATA[The jiangshi uses the forces of darkness to transform his hands into claws and even wings that allow him to fly over his enemies like a winged shadow, diving on his prey and ravaging them with his supernatural strength. A terrible nature that hides human eyes through exquisite manners, expensive jewelry and permanent delusions of grandeur.]]></entry>
-    <entry id="action_verbose_body_camping_trainer_jiangshi"><![CDATA[The jiangshi can order packs of wolves to protect their steps from the darkness. He also can impale the bodies of the enemies, sowing a forest of corpses that will terrify any future enemies. The jiangshi can also regenerate wounds and transmit his curse via a baptism of dark forces.]]></entry>
+	<entry id="action_verbose_body_guild_jiangshi"><![CDATA[The Jiangshi is a undead creature capable of destruction of defences; though technically blind she is able to detect her prey by their breath, allowing her to drain her prey's very own lifeforce.]]></entry>
+    <entry id="action_verbose_body_blacksmith_jiangshi"><![CDATA[The jiangshi uses her claws to rip into enemies, allowing her breach even the strongest armour: while having the guise of a young woman she can catch enemies off gaurd with her frightful apperence.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_jiangshi"><![CDATA[The jiangshi defaults to what was her original personality, tending her musical talent to calm her new found "friends" or creating talismans to help, though she tends to wander off at night.]]></entry>
 	
  <!--Events -->	
 	
@@ -75,58 +75,43 @@
 <!--Barks -->	
 	
 	
-    <entry id="jiangshi+str_bark_deathsdoor"><![CDATA[Ha! You are nothing but a coward.]]></entry>
-    <entry id="jiangshi+str_bark_deathsdoor"><![CDATA[*sneers* True evil cannot be destroyed we will see each other again.]]></entry>
-    <entry id="jiangshi+str_bark_deathsdoor"><![CDATA[How boring.]]></entry>
+    <entry id="jiangshi+str_bark_deathsdoor"><![CDATA[Well I be able to rest?]]></entry>
+    <entry id="jiangshi+str_bark_deathsdoor"><![CDATA[Huh...]]></entry>
+    <entry id="jiangshi+str_bark_deathsdoor"><![CDATA[Whats wrong?]]></entry>
 
-	<entry id="jiangshi+str_bark_rest"><![CDATA[I am a nocturnal, go and sleep.]]></entry>
-    <entry id="jiangshi+str_bark_rest"><![CDATA[Soon.. this place will be mine.]]></entry>
-    <entry id="jiangshi+str_bark_rest"><![CDATA[Sometimes I miss the sun]]></entry>
+	<entry id="jiangshi+str_bark_rest"><![CDATA[Time for sleep.]]></entry>
+    <entry id="jiangshi+str_bark_rest"><![CDATA[How long have I been awake?]]></entry>
+    <entry id="jiangshi+str_bark_rest"><![CDATA[I don't remember when I last slept.]]></entry>
     
 	
 	
 	
-    <entry id="jiangshi+str_monster_user_selected_targets_kill_pill"><![CDATA[Impossible!]]></entry>  
+    <entry id="jiangshi+str_monster_user_selected_targets_kill_pill"><![CDATA[I go with a clear mind!]]></entry>  
     
 <!--Reactions --> 
 
    
-		<entry id="jiangshi+str_monster_attack_unholy_smite"><![CDATA[Try again!]]></entry>
-		<entry id="jiangshi+str_monster_attack_unholy_judgement"><![CDATA[Hmm you remind me of someone...]]></entry>
-		<entry id="jiangshi+str_monster_attack_unholy_curse"><![CDATA[My apologies but only one curse at a time.]]></entry>
-		<entry id="jiangshi+str_bark_hobby"><![CDATA[I was once a man of science, but my pursits only showed vanity.]]></entry>
-		<entry id="jiangshi+str_bark_hobby"><![CDATA[I remeber all those wars... so much blood, how delious]]></entry>
-		<entry id="jiangshi+str_bark_hobby"><![CDATA[Enough we shall speak more tomorrow.]]></entry>
+		<entry id="jiangshi+str_monster_attack_unholy_smite"><![CDATA[Did it do something?]]></entry>
+		<entry id="jiangshi+str_monster_attack_unholy_judgement"><![CDATA[What do you mean, I killed him?!]]></entry>
+		<entry id="jiangshi+str_monster_attack_unholy_curse"><![CDATA[I don't think that effects me?]]></entry>
+		<entry id="jiangshi+str_bark_hobby"><![CDATA[I like dancing.]]></entry>
+		<entry id="jiangshi+str_bark_hobby"><![CDATA[How odd I remember a face.]]></entry>
 		
   
 
-		<entry id="jiangshi+str_bark_rest"><![CDATA[Soon dear friends...]]></entry>
-		<entry id="jiangshi+str_bark_rest"><![CDATA[let the night embrace us all.]]></entry>
-		<entry id="jiangshi+str_bark_rest"><![CDATA[The sun rises, I must sleep.]]></entry>
-                <entry id="jiangshi+str_bark_rest"><![CDATA[Dear friends you are weary I can tell.]]></entry>
-
-
-		<entry id="jiangshi+str_monster_user_selected_targets_kill_pill"><![CDATA[Pathetic creature!]]></entry>  
+		<entry id="jiangshi+str_bark_rest"><![CDATA[So far from home...]]></entry>
+		<entry id="jiangshi+str_bark_rest"><![CDATA[My joints are stiffening...]]></entry>
+		<entry id="jiangshi+str_bark_rest"><![CDATA[I don'tt like the sun much anymore...]]></entry>  
     
 	
-	    <entry id="jiangshi+str_critbyhero"><![CDATA[Your soul smells like honey and nuts...]]></entry>
-        <entry id="jiangshi+str_critbyhero"><![CDATA[Your vitality makes me salivate...]]></entry>
- 	    <entry id="jiangshi+str_critbyhero"><![CDATA[I will be satisfied with your life!]]></entry>
-	    <entry id="jiangshi+str_critbyhero"><![CDATA[You don't know who you are facing, do you?]]></entry>
-	    <entry id="jiangshi+str_critbyhero"><![CDATA[Kneel before me!]]></entry>
-	    <entry id="jiangshi+str_critbyhero"><![CDATA[I have not lived this long to be cowed by the likes of you!]]></entry>
-		<entry id="jiangshi+str_critbyhero"><![CDATA[Don't you recognize death when it stares you in the face?]]></entry>
-		<entry id="jiangshi+str_critbyhero"><![CDATA[HAHAHAHAHA.... SUFFER!]]></entry>
-	
-
-		<entry id="buff_rule_data_tooltip_bloodlust"><![CDATA[Bloodlust]]></entry>
-    		<entry id="buff_rule_data_tooltip_human"><![CDATA[flushed]]></entry>
-    		<entry id="actor_mode_name_bloodlust"><![CDATA[Bloodlust]]></entry>
-    		<entry id="str_skill_mode_info_bloodlust"><![CDATA[As Bloodlust:]]></entry>
-		<entry id="buff_rule_data_tooltip_flushed"><![CDATA[Flushed]]></entry>
-    		<entry id="buff_rule_data_tooltip_human"><![CDATA[Human]]></entry>
-    		<entry id="actor_mode_name_flushed"><![CDATA[Flushed]]></entry>
-    		<entry id="str_skill_mode_info_flushed"><![CDATA[As Flushed:]]></entry>
+	    <entry id="jiangshi+str_critbyhero"><![CDATA[Did I do good?]]></entry>
+        <entry id="jiangshi+str_critbyhero"><![CDATA[Found you!]]></entry>
+ 	    <entry id="jiangshi+str_critbyhero"><![CDATA[I am hungry!]]></entry>
+	    <entry id="jiangshi+str_critbyhero"><![CDATA[BOO!]]></entry>
+	    <entry id="jiangshi+str_critbyhero"><![CDATA[I..I..am sorry!]]></entry>
+	    <entry id="jiangshi+str_critbyhero"><![CDATA[Wait, what am I doing?]]></entry>
+		<entry id="jiangshi+str_critbyhero"><![CDATA[This isn't me!]]></entry>
+		<entry id="jiangshi+str_critbyhero"><![CDATA[...]]></entry>
 
 
 
@@ -136,18 +121,58 @@
 
 
 
-		 <entry id="jiangshi+str_afflicted_fearful">						<![CDATA[Agh! The Light, it burns!]]></entry>	    
-	     <entry id="jiangshi+str_afflicted_paranoid">						<![CDATA[Your real mission is to destroy me! I know, you will not deceive me with your pathetic subterfuge!]]></entry>	     
-	     <entry id="jiangshi+str_afflicted_masochistic">						<![CDATA[I will get some beautiful screams out of you!]]></entry>	    
-	     <entry id="jiangshi+str_afflicted_abusive">							<![CDATA[I blame ALL OF YOU! Ignorant apes...]]></entry>	    
-	     <entry id="jiangshi+str_afflicted_selfish">							<![CDATA[Hmph. The shepherd doesn't obey the orders of his sheep.]]></entry>	     
-	     <entry id="jiangshi+str_afflicted_hopeless">							<![CDATA[My existence is an endless curse...]]></entry>	    
-	     <entry id="jiangshi+str_afflicted_irrational">						<![CDATA[I am the fountain, the revelation and the life!]]></entry>	   
-	     <entry id="jiangshi+str_virtued_stalwart">							<![CDATA[Go ahead, I can see the fear in the eyes of those rats!]]></entry>	    
-	     <entry id="jiangshi+str_virtued_courageous">						<![CDATA[Kneel and obey the master's word!]]></entry>	    
-	     <entry id="jiangshi+str_virtued_focused">							<![CDATA[The devil knows because he is the devil, but he knows more because he’s old.]]></entry>	    
-	     <entry id="jiangshi+str_virtued_powerful">							<![CDATA[HAHAHAHAHA...Is that all you can muster?]]></entry>	   
-	     <entry id="jiangshi+str_virtued_prosperous">						<![CDATA[I will lead you to victory, as in the old days.]]></entry>	    
+	     <entry id="jiangshi+str_afflicted_fearful">						<![CDATA[Please I don't want to left alone!]]></entry>	    
+	     <entry id="jiangshi+str_afflicted_paranoid">						<![CDATA[You are on his side aren't you!]]></entry>
+	     <entry id="jiangshi+str_afflicted_paranoid">						<![CDATA[Stay away from my brother!]]></entry>	 
+	     <entry id="jiangshi+str_afflicted_paranoid">						<![CDATA[You think you can trick me again!]]></entry> 
+   
+	     <entry id="jiangshi+str_afflicted_masochistic">						<![CDATA[GO AHEAD AND TRY!]]></entry>
+	     <entry id="jiangshi+str_afflicted_masochistic">						<![CDATA[I CAN'T FEEL ANYTHING, LET ME FEEL YOUR PAIN!]]></entry>
+	     <entry id="jiangshi+str_afflicted_masochistic">						<![CDATA[Your screams well be part of my dance!]]></entry>
+	    
+	     <entry id="jiangshi+str_afflicted_abusive">						<![CDATA[Why did I even bother accepting the invitation!]]></entry>
+	     <entry id="jiangshi+str_afflicted_abusive">						<![CDATA[Let me guess you're scared?]]></entry>
+	     <entry id="jiangshi+str_afflicted_abusive">						<![CDATA[...Bunch of dummies...]]></entry>
+	    
+	     <entry id="jiangshi+str_afflicted_selfish">						<![CDATA[This is my dance, no yours.]]></entry>
+	     <entry id="jiangshi+str_afflicted_selfish">						<![CDATA[NO NO NO, MY BROTHER IS MINE!.]]></entry>
+	     <entry id="jiangshi+str_afflicted_selfish">						<![CDATA[Who told you to change the music?!]]></entry>
+             <entry id="jiangshi+str_afflicted_selfish">						<![CDATA[You follow my lead.]]></entry>
+	     
+	     <entry id="jiangshi+str_afflicted_hopeless">						<![CDATA[Did he miss me that much...]]></entry>
+	     <entry id="jiangshi+str_afflicted_hopeless">						<![CDATA[Please...This isn't me!]]></entry>
+             <entry id="jiangshi+str_afflicted_hopeless">						<![CDATA[I am not amonster, I am not like this!]]></entry>
+             <entry id="jiangshi+str_afflicted_hopeless">						<![CDATA[What happened to me.]]></entry>
+	    
+	     <entry id="jiangshi+str_afflicted_irrational">						<![CDATA[I DANCED AGAINST 1000 SHARKS ONCE!]]></entry>
+	     <entry id="jiangshi+str_afflicted_irrational">						<![CDATA[Lets see what we can do when we move like sticks.]]></entry>
+	     <entry id="jiangshi+str_afflicted_irrational">						<![CDATA[Oh happy days, the emperor is here!]]></entry>
+	     <entry id="jiangshi+str_afflicted_irrational">						<![CDATA[Let me see that dog!]]></entry>
+	   
+	     <entry id="jiangshi+str_virtued_stalwart">							<![CDATA[Come on! We are just starting!]]></entry>
+	     <entry id="jiangshi+str_virtued_stalwart">							<![CDATA[We can't stop now, they are starting to fall back!]]></entry>
+             <entry id="jiangshi+str_virtued_stalwart">							<![CDATA[I am dancer not a fighter, but first time for everything!]]></entry>
+             <entry id="jiangshi+str_virtued_stalwart">							<![CDATA[I never leave a perfomence unfinished!]]></entry>
+	    
+	     <entry id="jiangshi+str_virtued_courageous">						<![CDATA[I have performed infront of nobles, what makes you think I'd run away!]]></entry>
+             <entry id="jiangshi+str_virtued_courageous">						<![CDATA[He wouldn't run and neither shall I!]]></entry>
+             <entry id="jiangshi+str_virtued_courageous">						<![CDATA[The show has just begun!]]></entry>
+             <entry id="jiangshi+str_virtued_courageous">						<![CDATA[Rough crowd...]]></entry>y
+
+	     <entry id="jiangshi+str_virtued_focused">							<![CDATA[Just let the music guide ya!]]></entry>
+             <entry id="jiangshi+str_virtued_focused">							<![CDATA[This is a group performance everybody.]]></entry>
+             <entry id="jiangshi+str_virtued_focused">							<![CDATA[Let the rhythm guide you, until you perform under the moonlight.]]></entry>
+             <entry id="jiangshi+str_virtued_focused">							<![CDATA[You can here the music too, then lets continue.]]></entry>
+	    
+	     <entry id="jiangshi+str_virtued_powerful">							<![CDATA[That was just a warm up the real starts now!]]></entry>
+	     <entry id="jiangshi+str_virtued_powerful">							<![CDATA[I will take my bow when I am finished.]]></entry>
+	   
+	     <entry id="jiangshi+str_virtued_prosperous">						<![CDATA[I will lead you to victory, as in the old days.]]></entry>
+             <entry id="jiangshi+str_virtued_prosperous">						<![CDATA[I will lead you to victory, as in the old days.]]></entry>
+             <entry id="jiangshi+str_virtued_prosperous">						<![CDATA[I will lead you to victory, as in the old days.]]></entry>
+             <entry id="jiangshi+str_virtued_prosperous">						<![CDATA[I will lead you to victory, as in the old days.]]></entry>
+             
+	    
 	     <entry id="jiangshi+str_virtued_vigorous">							<![CDATA[You can't kill me! I am eternal!]]></entry>		 
 	     <entry id="jiangshi+str_stress_heal_self_stalwart">					<![CDATA[Worse things I have unlived...]]></entry>	   
 	     <entry id="jiangshi+str_stress_heal_party_courageous">				<![CDATA[Do not fear the darkness, for it is our ally.]]></entry>	    
