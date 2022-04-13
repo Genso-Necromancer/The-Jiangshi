@@ -1,0 +1,26 @@
+{
+    "event_guid_overrides":
+    [                
+        {"event_id": "event:/char/ally/jiangshi_ji_claws_swipe",            "guid_override":"{9ebb59bf-a93a-4c97-b61e-3459cc359128}"},
+	{"event_id": "event:/char/ally/jiangshi_ji_claws_swipe_miss",            "guid_override":"{5ae22bbf-b4e6-4e24-857a-b39804d41b0f}"},
+	{"event_id": "event:/char/ally/jiangshi_ji_destruction",            "guid_override":"{2d5b2952-dd5a-4cd1-8743-5949a721fdaa}"},
+	{"event_id": "event:/char/ally/jiangshi_ji_destruction_miss",            "guid_override":"{2d5b2952-dd5a-4cd1-8743-5949a721fdaa}"},
+        {"event_id": "event:/char/ally/jiangshi_ji_detect_breath",  "guid_override":"{499b570b-f13b-4ea8-9ed8-efcbe2085645}"},
+	{"event_id": "event:/char/ally/jiangshi_ji_detect_breath_miss",  "guid_override":"{17fe4221-28aa-48f8-ba6a-ef882af3587b}"},
+	{"event_id": "event:/char/ally/jiangshi_ji_drain_chi",                   "guid_override":"{d4f1981a-4569-4f5e-8082-db7aec437485}"},
+	{"event_id": "event:/char/ally/jiangshi_ji_drain_chi_miss",                   "guid_override":"{47d615bc-4ca4-407f-86e2-29c2cf8f5e14}"},
+        {"event_id": "event:/char/ally/jiangshi_ji_fearful_song",             "guid_override":"{773fc834-4ee8-408d-9401-9eaf2d7a17b4}"},
+	{"event_id": "event:/char/ally/jiangshi_ji_fearful_song_miss",             "guid_override":"{773fc834-4ee8-408d-9401-9eaf2d7a17b4}"},
+        {"event_id": "event:/char/ally/jiangshi_ji_frightful_leap",        "guid_override":"{eec40ffd-de20-474b-b233-0c371a52cad5}"},
+	{"event_id": "event:/char/ally/jiangshi_ji_frightful_leap_miss",        "guid_override":"{35c55c26-b777-4f14-aebb-0feb7e5f3005}"},
+        {"event_id": "event:/char/ally/jiangshi_ji_horrid_reminder",           "guid_override":"{4682552c-d964-4e7f-9d62-4dd216587787}"},
+	{"event_id": "event:/char/ally/jiangshi_riposte1",           "guid_override":"{9ebb59bf-a93a-4c97-b61e-3459cc359128}"},
+	{"event_id": "event:/char/ally/jiangshi_riposte1_miss",           "guid_override":"{5ae22bbf-b4e6-4e24-857a-b39804d41b0f}"},
+{"event_id": "event:/camp/skill/jiangsh_pep_talk",                   "guid_override":"{b8fe1948-26f3-443c-a20b-5aa7c3503a17}"},
+{"event_id": "event:/camp/skill/jiangshi_encourage",                   "guid_override":"{0700c4a5-be59-4cae-b692-68905da30141}"},
+{"event_id": "event:/camp/skill/jiangshi_stretch",                   "guid_override":"{dc0d12d8-76a5-41b5-9888-e7d5fd8740f6}"},
+{"event_id": "event:/camp/skill/jiangshi_talisman",                   "guid_override":"{d769b8f9-72eb-48fc-8950-8bba63f418c6}"},
+{"event_id": "event:/camp/skill/jiangshi_prowl",                   "guid_override":"{420977de-ef91-487e-a380-fa4958086f44}"}
+      
+    ]
+}

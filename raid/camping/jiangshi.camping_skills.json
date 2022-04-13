@@ -105,7 +105,7 @@
 					"selection": "individual",
 					"requirements": [],
 					"chance": {
-						"code": "b",
+						"code": "a",
 						"amount": 1.0
 					},
 					"type": "remove_deaths_door_recovery_buffs",
@@ -158,7 +158,7 @@
 					"selection": "self",
 					"requirements": [],
 					"chance": {
-						"code": "c",
+						"code": "b",
 						"amount": 1.0
 					},
 					"type": "buff",
@@ -275,7 +275,7 @@
 					"selection": "self",
 					"requirements": [],
 					"chance": {
-						"code": "b",
+						"code": "a",
 						"amount": 1.0
 					},
 					"type": "buff",
@@ -286,7 +286,7 @@
 					"selection": "self",
 					"requirements": [],
 					"chance": {
-						"code": "c",
+						"code": "b",
 						"amount": 1.0
 					},
 					"type": "buff",
@@ -297,7 +297,7 @@
 					"selection": "self",
 					"requirements": [],
 					"chance": {
-						"code": "a",
+						"code": "c",
 						"amount": 1.0
 					},
 					"type": "buff",

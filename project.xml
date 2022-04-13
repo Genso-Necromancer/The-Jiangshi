@@ -2,7 +2,7 @@
 <project>
 	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>C:\Program Files (x86)\Steam\steamapps\common\DarkestDungeon\mods\Jiangshi</ModDataPath>
+	<ModDataPath>C:/Program Files (x86)/Steam/steamapps/common/DarkestDungeon/mods/Jiangshi/</ModDataPath>
 	<Title>Jiangshi</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
@@ -19,3 +19,4 @@
 characters or less here!</ItemDescription>
 	<PublishedFileId>2466446096</PublishedFileId>
 </project>
+
